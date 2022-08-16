@@ -1,9 +1,17 @@
+echo Change Password For Kali User
 passwd
 apt remove openssh-server
 apt install rkhunter
+rkhunter --update
+echo Running rkhunter. Wait!
 rkhunter -c
 apt install chkrootkit
+echo Running chkrootkit. Wait!
 chkrootkit
+apt install lynis
+echo Running lynis. Wait! 
+lynis audit system > ./lynis_log.txt
+netstat -tulpn > ./open_ports_log.txt
 apt-get update -y && apt-get upgrade -y
 apt install git -y
 apt install netcat-traditional -y
