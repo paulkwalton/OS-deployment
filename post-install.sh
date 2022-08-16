@@ -13,10 +13,11 @@ sudo git clone https://github.com/nccgroup/ScoutSuite.git /opt/auditing/cloud/sc
 sudo git clone https://github.com/Mebus/cupp.git /opt/passwords/cupp
 sudo git clone https://github.com/r3motecontrol/Ghostpack-CompiledBinaries.git /opt/privesc/windows/ghostpack
 sudo git clone https://gchq.github.io/CyberChef/ /opt/gchq-cyberchef
-sudo git clone https://github.com/ropnop/kerbrute /opt/ad
+sudo git clone https://github.com/ropnop/kerbrute /opt/adtools
 sudo apt install wpscan -y
 sudo wpscan --update 
 sudo apt install macchanger -y
+sudo apt install gcc-mingw-w64 -y
 sudo apt install python3-impacket -y
 sudo apt install git -y
 sudo apt install netcat-traditional -y
