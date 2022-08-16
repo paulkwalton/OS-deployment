@@ -9,6 +9,13 @@ netstat -tulpn > ./open_ports_log.txt
 apt install rkhunter
 echo Check For Rootkits Using RKHunter
 rkhunter -c
+apt install windows-binaries
+wget https://download.sysinternals.com/files/SysinternalsSuite.zip /opt
+wget https://github.com/carlospolop/PEASS-ng/releases/download/20220814/linpeas.sh /opt/privesc/linux/linpeas.sh
+wget https://github.com/carlospolop/PEASS-ng/releases/download/20220814/winPEAS.bat /opt/privesc/windows/linpeas.bat
+git clone https://github.com/rebootuser/LinEnum.git /opt/privesc/linux/linenum
+git clone https://github.com/bitsadmin/wesng.git /opt/privesc/windows/exploit-suggester
+apt install python3-impacket -y
 apt install git -y
 apt install netcat-traditional -y
 apt install powershell  -y
