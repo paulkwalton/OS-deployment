@@ -1,10 +1,14 @@
 echo Change Password For Kali User
 passwd
-apt install lynis
-echo Running lynis. Wait! 
-lynis audit system > ./lynis_log.txt
-netstat -tulpn > ./open_ports_log.txt
 apt-get update -y && apt-get upgrade -y
+apt install lynis -y
+echo Run Lynis & Output Report
+lynis audit system > ./lynis_log.txt
+echo Output open ports to log file
+netstat -tulpn > ./open_ports_log.txt
+apt install rkhunter
+echo Check For Rootkits Using RKHunter
+rkhunter -c
 apt install git -y
 apt install netcat-traditional -y
 apt install powershell  -y
