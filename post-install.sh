@@ -1,6 +1,5 @@
 echo Change Password For Kali User
 passwd
-apt remove openssh-server
 apt install rkhunter
 rkhunter --update
 echo Running rkhunter. Wait!
