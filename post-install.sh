@@ -9,7 +9,7 @@ netstat -tulpn > ./open_ports_log.txt
 apt install rkhunter
 echo Check For Rootkits Using RKHunter
 rkhunter -c
-apt install windows-binaries
+apt install windows-binaries -y 
 wget https://download.sysinternals.com/files/SysinternalsSuite.zip /opt
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20220814/linpeas.sh /opt/privesc/linux/linpeas.sh
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20220814/winPEAS.bat /opt/privesc/windows/linpeas.bat
