@@ -31,6 +31,7 @@ apt install sqlitebrowser -y
 apt install hashid -y
 apt install spray -y
 apt install poshc2 -y
+git clone https://github.com/sc0tfree/updog.git /opt
 gem install evil-winrm
 apt-get update -y
 updatedb
