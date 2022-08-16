@@ -1,3 +1,4 @@
+passwd
 apt-get update -y && apt-get upgrade -y
 apt install git -y
 apt install netcat-traditional -y
@@ -31,9 +32,10 @@ apt install sqlitebrowser -y
 apt install hashid -y
 apt install spray -y
 apt install poshc2 -y
+apt install bloodhound
 git clone https://github.com/sc0tfree/updog.git /opt
 gem install evil-winrm
 apt-get update -y
+apt autoremove
 updatedb
 service postgresql start
-apt install bloodhound
