@@ -15,6 +15,7 @@ sudo git clone https://github.com/r3motecontrol/Ghostpack-CompiledBinaries.git /
 sudo git clone https://gchq.github.io/CyberChef/ /opt/gchq-cyberchef
 sudo apt install wpscan -y
 sudo wpscan --update 
+sudo apt install macchanger -y
 sudo apt install python3-impacket -y
 sudo apt install git -y
 sudo apt install netcat-traditional -y
@@ -59,4 +60,5 @@ echo Change Default SSH Keys
 sudo mkdir /etc/ssh/old_keys
 sudo mv /etc/ssh/ssh_host_* /etc/ssh/old_keys
 sudo dpkg-reconfigure openssh-server
+sudo macchanger -A eth0
 echo NOW CHANGE PASSWORDS
