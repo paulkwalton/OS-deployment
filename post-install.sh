@@ -1,9 +1,4 @@
 sudo apt-get update -y && sudo apt-get upgrade -y
-sudo apt install lynis -y
-echo Run Lynis & Output Report
-sudo lynis audit system > ./lynis_log.txt
-echo Output open ports to log file
-sudo netstat -tulpn > ./open_ports_log.txt
 sudo apt install rkhunter -y
 echo Check For Rootkits Using RKHunter
 sudo rkhunter -c
@@ -60,6 +55,8 @@ sudo apt-get update -y
 sudo apt autoremove
 sudo updatedb
 sudo service postgresql start
+echo Change Default SSH Keys
 sudo mkdir /etc/ssh/old_keys
 sudo mv /etc/ssh/ssh_host_* /etc/ssh/old_keys
+sudo dpkg-reconfigure openssh-server
 echo NOW CHANGE PASSWORDS
