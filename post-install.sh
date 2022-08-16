@@ -15,6 +15,11 @@ sudo git clone https://github.com/paulkwalton/scripts.git /opt/scripts/
 sudo git clone https://github.com/rebootuser/LinEnum.git /opt/privesc/linux/linenum
 sudo git clone https://github.com/bitsadmin/wesng.git /opt/privesc/windows/exploit-suggester
 sudo git clone https://github.com/nccgroup/ScoutSuite.git /opt/auditing/cloud/scoutsuite
+sudo git clone https://github.com/Mebus/cupp.git /opt/passwords/cupp
+sudo git clone https://github.com/r3motecontrol/Ghostpack-CompiledBinaries.git /opt/privesc/windows/ghostpack
+sudo git clone https://gchq.github.io/CyberChef/ /opt/gchq-cyberchef
+sudo apt install wpscan -y
+sudo wpscan --update 
 sudo apt install python3-impacket -y
 sudo apt install git -y
 sudo apt install netcat-traditional -y
