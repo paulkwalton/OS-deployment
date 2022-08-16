@@ -1,5 +1,3 @@
-echo Change Password For Kali User
-passwd
 sudo apt-get update -y && sudo apt-get upgrade -y
 sudo apt install lynis -y
 echo Run Lynis & Output Report
@@ -57,5 +55,4 @@ sudo apt-get update -y
 sudo apt autoremove
 sudo updatedb
 sudo service postgresql start
-echo Change Password For root User
-sudo passwd
+echo NOW CHANGE PASSWORDS
