@@ -6,7 +6,7 @@ echo Run Lynis & Output Report
 lynis audit system > ./lynis_log.txt
 echo Output open ports to log file
 netstat -tulpn > ./open_ports_log.txt
-apt install rkhunter
+apt install rkhunter -y
 echo Check For Rootkits Using RKHunter
 rkhunter -c
 apt install windows-binaries -y 
