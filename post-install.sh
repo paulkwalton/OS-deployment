@@ -29,6 +29,8 @@ apt install dnsrecon -y
 apt install jython -y
 apt install sqlitebrowser -y
 apt install hashid -y
+apt install spray -y
+apt install poshc2 -y
 gem install evil-winrm
 apt-get update -y
 updatedb
