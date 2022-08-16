@@ -60,4 +60,6 @@ sudo apt-get update -y
 sudo apt autoremove
 sudo updatedb
 sudo service postgresql start
+sudo mkdir /etc/ssh/old_keys
+sudo mv /etc/ssh/ssh_host_* /etc/ssh/old_keys
 echo NOW CHANGE PASSWORDS
