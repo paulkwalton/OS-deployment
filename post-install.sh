@@ -15,6 +15,7 @@ wget https://github.com/carlospolop/PEASS-ng/releases/download/20220814/linpeas.
 wget https://github.com/carlospolop/PEASS-ng/releases/download/20220814/winPEAS.bat /opt/privesc/windows/linpeas.bat
 git clone https://github.com/rebootuser/LinEnum.git /opt/privesc/linux/linenum
 git clone https://github.com/bitsadmin/wesng.git /opt/privesc/windows/exploit-suggester
+git clone https://github.com/nccgroup/ScoutSuite.git /opt/auditing/cloud/scoutsuite
 apt install python3-impacket -y
 apt install git -y
 apt install netcat-traditional -y
