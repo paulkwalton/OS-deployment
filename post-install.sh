@@ -3,7 +3,9 @@ sudo apt install rkhunter -y
 echo Check For Rootkits Using RKHunter
 sudo rkhunter -c
 sudo apt install default-jdk -y
-sudo apt install netbeans -y
+sudo wget https://dlcdn.apache.org/netbeans/netbeans-installers/14/Apache-NetBeans-14-bin-linux-x64.sh
+sudo chmod +x Apache-NetBeans-14-bin-linux-x64.sh
+sudo ./Apache-NetBeans-14-bin-linux-x64.sh
 sudo apt update -y
 sudo apt install code -y
 sudo apt install windows-binaries -y 
