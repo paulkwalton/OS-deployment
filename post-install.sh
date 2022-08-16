@@ -1,4 +1,5 @@
 passwd
+apt remove openssh-server
 apt-get update -y && apt-get upgrade -y
 apt install git -y
 apt install netcat-traditional -y
