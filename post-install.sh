@@ -1,4 +1,4 @@
-echo Change Password For Kali User
+echo Change Password For root User
 passwd
 apt-get update -y && apt-get upgrade -y
 apt install lynis -y
