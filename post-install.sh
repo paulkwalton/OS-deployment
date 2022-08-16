@@ -1,12 +1,5 @@
 echo Change Password For Kali User
 passwd
-apt install rkhunter
-rkhunter --update
-echo Running rkhunter. Wait!
-rkhunter -c
-apt install chkrootkit
-echo Running chkrootkit. Wait!
-chkrootkit
 apt install lynis
 echo Running lynis. Wait! 
 lynis audit system > ./lynis_log.txt
