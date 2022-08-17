@@ -6,8 +6,8 @@ sudo apt install default-jdk -y
 sudo apt install build-essential -y
 sudo apt install windows-binaries -y 
 sudo apt install openssh-server -y
-systemctl enable ssh.service
-systemctl start ssh.service
+sudo systemctl enable ssh.service
+sudo systemctl start ssh.service
 sudo wget https://download.sysinternals.com/files/SysinternalsSuite.zip /opt
 sudo wget https://github.com/carlospolop/PEASS-ng/releases/download/20220814/linpeas.sh /opt/privesc/linux/linpeas.sh
 sudo wget https://github.com/carlospolop/PEASS-ng/releases/download/20220814/winPEAS.bat /opt/privesc/windows/linpeas.bat
