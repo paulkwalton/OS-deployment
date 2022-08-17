@@ -8,17 +8,9 @@ sudo apt install windows-binaries -y
 sudo apt install openssh-server -y
 sudo systemctl enable ssh.service
 sudo systemctl start ssh.service
-sudo mkdir /opt/sysinternals
-sudo mkdir /opt/privesc/linux
-sudo mkdir /opt/privesc/windows
-sudo mkdir /opt/adtools/pingcastle
-sudo mkdir /opt/c2/sliver
-sudo mkdir /opt/proxy/burp
-
-
-sudo wget https://download.sysinternals.com/files/SysinternalsSuite.zip -O /opt/sysinternals/
-sudo wget https://github.com/carlospolop/PEASS-ng/releases/download/20220814/linpeas.sh -O /opt/privesc/linux/linpeas.sh
-sudo wget https://github.com/carlospolop/PEASS-ng/releases/download/20220814/winPEAS.bat -O /opt/privesc/windows/linpeas.bat
+sudo curl https://download.sysinternals.com/files/SysinternalsSuite.zip --output /opt/sysinternals/
+sudo curl https://github.com/carlospolop/PEASS-ng/releases/download/20220814/linpeas.sh --output /opt/privesc/linux/linpeas.sh
+sudo curl https://github.com/carlospolop/PEASS-ng/releases/download/20220814/winPEAS.bat --output /opt/privesc/windows/linpeas.bat
 sudo git clone https://github.com/paulkwalton/scripts.git /opt/scripts/
 sudo git clone https://github.com/rebootuser/LinEnum.git /opt/privesc/linux/linenum
 sudo git clone https://github.com/bitsadmin/wesng.git /opt/privesc/windows/exploit-suggester
@@ -28,18 +20,15 @@ sudo git clone https://github.com/r3motecontrol/Ghostpack-CompiledBinaries.git /
 sudo git clone https://gchq.github.io/CyberChef/ /opt/gchq-cyberchef
 sudo git clone https://github.com/ropnop/kerbrute /opt/adtools/kerbrute
 sudo git clone https://github.com/sc0tfree/updog.git /opt/filehosting
-sudo wget https://github.com/vletoux/pingcastle/releases/download/2.11.0.0/PingCastle_2.11.0.0.zip -O /opt/adtools/pingcastle
-sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_linux -O /opt/c2/sliver/sliver-server_linux
-sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_windows.exe -O /opt/c2/sliver/sliver-server_windows.exe
-sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_windows.exe -O /opt/c2/sliver/sliver-client_windows.exe
-sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_linux -O /opt/c2/sliver/sliver-client_linux
-sudo wget https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Linux -O /opt/proxy/burp/linux
-sudo wget https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Windows -O /opt/proxy/burp/windows
-sudo wget https://github.com/ropnop/go-windapsearch/releases/download/v0.3.0/windapsearch-linux-amd64 -O /opt/adtools/windapsearch
+sudo curl https://github.com/vletoux/pingcastle/releases/download/2.11.0.0/PingCastle_2.11.0.0.zip --output /opt/adtools/pingcastle
+sudo curl https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_linux --output /opt/c2/sliver/sliver-server_linux
+sudo curl https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_windows.exe --output /opt/c2/sliver/sliver-server_windows.exe
+sudo curl https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_windows.exe --output /opt/c2/sliver/sliver-client_windows.exe
+sudo curl https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_linux --output /opt/c2/sliver/sliver-client_linux
+sudo curl https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Linux --output /opt/proxy/burp/linux
+sudo curl https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Windows --output /opt/proxy/burp/windows
+sudo curl https://github.com/ropnop/go-windapsearch/releases/download/v0.3.0/windapsearch-linux-amd64 --output /opt/adtools/windapsearch
 sudo git clone https://github.com/attackdebris/kerberos_enum_userlists.git /opt/wordlists/kerberos_enum_userlists
-sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install gdebi-core -y
-sudo gdebi google-chrome-stable_current_amd64.deb -y
 sudo apt-get install wget gpg -y
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
