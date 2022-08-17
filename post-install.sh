@@ -1,7 +1,7 @@
 sudo apt-get update -y && sudo apt-get upgrade -y
 sudo apt install rkhunter -y
 echo Check For Rootkits Using RKHunter
-sudo rkhunter -c
+sudo rkhunter -c -sk
 sudo apt install default-jdk -y
 sudo apt install build-essential -y
 sudo apt install windows-binaries -y 
