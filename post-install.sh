@@ -4,11 +4,6 @@ echo Check For Rootkits Using RKHunter
 sudo rkhunter -c
 sudo apt install default-jdk -y
 sudo apt install build-essential -y
-sudo wget https://dlcdn.apache.org/netbeans/netbeans-installers/14/Apache-NetBeans-14-bin-linux-x64.sh
-sudo chmod +x Apache-NetBeans-14-bin-linux-x64.sh
-sudo ./Apache-NetBeans-14-bin-linux-x64.sh
-sudo apt update -y
-sudo apt install code -y
 sudo apt install windows-binaries -y 
 sudo wget https://download.sysinternals.com/files/SysinternalsSuite.zip /opt
 sudo wget https://github.com/carlospolop/PEASS-ng/releases/download/20220814/linpeas.sh /opt/privesc/linux/linpeas.sh
