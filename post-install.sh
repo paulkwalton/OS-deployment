@@ -65,7 +65,7 @@ sudo apt install bloodhound -y
 sudo apt install responder -y
 sudo gem install evil-winrm
 sudo apt-get update -y
-sudo apt autoremove
+sudo apt autoremove -y
 sudo updatedb
 sudo service postgresql start
 echo Change Default SSH Keys
