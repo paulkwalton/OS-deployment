@@ -20,6 +20,7 @@ sudo git clone https://github.com/r3motecontrol/Ghostpack-CompiledBinaries.git /
 sudo git clone https://gchq.github.io/CyberChef/ /opt/gchq-cyberchef
 sudo git clone https://github.com/ropnop/kerbrute /opt/adtools/kerbrute
 sudo git clone https://github.com/sc0tfree/updog.git /opt/filehosting
+sudo wget https://github.com/vletoux/pingcastle/releases/download/2.11.0.0/PingCastle_2.11.0.0.zip -O /opt/adtools/pingcastle
 sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_linux -O /opt/c2/sliver/sliver-server_linux
 sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_windows.exe -O /opt/c2/sliver/sliver-server_windows.exe
 sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_windows.exe -O /opt/c2/sliver/sliver-client_windows.exe
