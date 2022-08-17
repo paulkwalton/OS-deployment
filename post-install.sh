@@ -8,9 +8,9 @@ sudo apt install windows-binaries -y
 sudo apt install openssh-server -y
 sudo systemctl enable ssh.service
 sudo systemctl start ssh.service
-sudo curl https://download.sysinternals.com/files/SysinternalsSuite.zip --output /opt/sysinternals/
-sudo curl https://github.com/carlospolop/PEASS-ng/releases/download/20220814/linpeas.sh --output /opt/privesc/linux/linpeas.sh
-sudo curl https://github.com/carlospolop/PEASS-ng/releases/download/20220814/winPEAS.bat --output /opt/privesc/windows/linpeas.bat
+sudo curl -o /opt/sysinternals/sysinternals.zip https://download.sysinternals.com/files/SysinternalsSuite.zip 
+sudo curl -o /opt/privesc/linux/linpeas.sh https://github.com/carlospolop/PEASS-ng/releases/download/20220814/linpeas.sh
+sudo curl -o /opt/privesc/windows/linpeas.bat https://github.com/carlospolop/PEASS-ng/releases/download/20220814/winPEAS.bat
 sudo git clone https://github.com/paulkwalton/scripts.git /opt/scripts/
 sudo git clone https://github.com/rebootuser/LinEnum.git /opt/privesc/linux/linenum
 sudo git clone https://github.com/bitsadmin/wesng.git /opt/privesc/windows/exploit-suggester
