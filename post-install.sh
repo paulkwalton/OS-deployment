@@ -84,4 +84,5 @@ sudo mkdir /etc/ssh/old_keys
 sudo mv /etc/ssh/ssh_host_* /etc/ssh/old_keys
 sudo dpkg-reconfigure openssh-server
 sudo macchanger -A eth0
-echo NOW CHANGE PASSWORDS
+su kali
+passwd
