@@ -29,7 +29,6 @@ sudo wget https://portswigger-cdn.net/burp/releases/download?product=pro&version
 sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install gdebi-core -y
 sudo gdebi google-chrome-stable_current_amd64.deb -y
-sudo curl https://sliver.sh/install|sudo bash
 sudo apt-get install wget gpg -y
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
 sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
