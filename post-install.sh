@@ -21,6 +21,7 @@ sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-s
 sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_windows.exe /opt/c2/sliver/sliver-server_windows.exe
 sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_windows.exe /opt/c2/sliver/sliver-client_windows.exe
 sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_linux /opt/c2/sliver/sliver-client_linux
+sudo curl https://sliver.sh/install|sudo bash
 sudo apt install wpscan -y
 sudo wpscan --update 
 sudo apt install macchanger -y
