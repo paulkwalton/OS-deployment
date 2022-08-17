@@ -18,7 +18,7 @@ sudo git clone https://github.com/nccgroup/ScoutSuite.git /opt/auditing/cloud/sc
 sudo git clone https://github.com/Mebus/cupp.git /opt/passwords/cupp
 sudo git clone https://github.com/r3motecontrol/Ghostpack-CompiledBinaries.git /opt/privesc/windows/ghostpack
 sudo git clone https://gchq.github.io/CyberChef/ /opt/gchq-cyberchef
-sudo git clone https://github.com/ropnop/kerbrute /opt/adtools
+sudo git clone https://github.com/ropnop/kerbrute /opt/adtools/kerbrute
 sudo git clone https://github.com/sc0tfree/updog.git /opt/filehosting
 sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_linux -O /opt/c2/sliver/sliver-server_linux
 sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_windows.exe -O /opt/c2/sliver/sliver-server_windows.exe
@@ -26,6 +26,9 @@ sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-c
 sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_linux -O /opt/c2/sliver/sliver-client_linux
 sudo wget https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Linux -O /opt/proxy/burp/linux
 sudo wget https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Windows -O /opt/proxy/burp/windows
+sudo wget https://github.com/ropnop/go-windapsearch/releases/download/v0.3.0/windapsearch-linux-amd64 -O /opt/adtools/windapsearch
+sudo git clone https://github.com/attackdebris/kerberos_enum_userlists.git /opt/wordlists/kerberos_enum_userlists
+
 sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install gdebi-core -y
 sudo gdebi google-chrome-stable_current_amd64.deb -y
