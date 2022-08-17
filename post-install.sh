@@ -28,7 +28,6 @@ sudo wget https://portswigger-cdn.net/burp/releases/download?product=pro&version
 sudo wget https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Windows -O /opt/proxy/burp/windows
 sudo wget https://github.com/ropnop/go-windapsearch/releases/download/v0.3.0/windapsearch-linux-amd64 -O /opt/adtools/windapsearch
 sudo git clone https://github.com/attackdebris/kerberos_enum_userlists.git /opt/wordlists/kerberos_enum_userlists
-
 sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install gdebi-core -y
 sudo gdebi google-chrome-stable_current_amd64.deb -y
