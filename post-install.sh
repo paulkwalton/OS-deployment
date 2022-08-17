@@ -20,14 +20,14 @@ sudo git clone https://github.com/r3motecontrol/Ghostpack-CompiledBinaries.git /
 sudo git clone https://gchq.github.io/CyberChef/ /opt/gchq-cyberchef
 sudo git clone https://github.com/ropnop/kerbrute /opt/adtools/kerbrute
 sudo git clone https://github.com/sc0tfree/updog.git /opt/filehosting
-sudo curl https://github.com/vletoux/pingcastle/releases/download/2.11.0.0/PingCastle_2.11.0.0.zip --output /opt/adtools/pingcastle
-sudo curl https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_linux --output /opt/c2/sliver/sliver-server_linux
-sudo curl https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_windows.exe --output /opt/c2/sliver/sliver-server_windows.exe
-sudo curl https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_windows.exe --output /opt/c2/sliver/sliver-client_windows.exe
-sudo curl https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_linux --output /opt/c2/sliver/sliver-client_linux
-sudo curl https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Linux --output /opt/proxy/burp/linux
-sudo curl https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Windows --output /opt/proxy/burp/windows
-sudo curl https://github.com/ropnop/go-windapsearch/releases/download/v0.3.0/windapsearch-linux-amd64 --output /opt/adtools/windapsearch
+sudo curl -o /opt/adtools/pingcastle https://github.com/vletoux/pingcastle/releases/download/2.11.0.0/PingCastle_2.11.0.0.zip
+sudo curl -o /opt/c2/sliver/sliver-server_linux https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_linux
+sudo curl -o /opt/c2/sliver/sliver-server_windows.exe https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_windows.exe
+sudo curl -o /opt/c2/sliver/sliver-client_windows.exe https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_windows.exe
+sudo curl -o /opt/c2/sliver/sliver-client_linux https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_linux
+sudo curl -o /opt/proxy/burp/linux https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Linux
+sudo curl -o /opt/proxy/burp/windows https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Windows
+sudo curl -o /opt/adtools/windapsearch https://github.com/ropnop/go-windapsearch/releases/download/v0.3.0/windapsearch-linux-amd64
 sudo git clone https://github.com/attackdebris/kerberos_enum_userlists.git /opt/wordlists/kerberos_enum_userlists
 sudo apt-get install wget gpg -y
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
