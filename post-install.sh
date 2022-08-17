@@ -24,6 +24,11 @@ sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-c
 sudo wget https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Linux /opt/proxy/burp/linux
 sudo wget https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Windows /opt/proxy/burp/windows
 sudo curl https://sliver.sh/install|sudo bash
+sudo apt install gnupg ca-certificates
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+echo "deb https://download.mono-project.com/repo/ubuntu stable-focal main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
+sudo apt update -y
+sudo apt install mono-complete -y
 sudo apt install wpscan -y
 sudo wpscan --update 
 sudo apt install macchanger -y
