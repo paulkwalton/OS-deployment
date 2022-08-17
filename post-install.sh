@@ -8,6 +8,14 @@ sudo apt install windows-binaries -y
 sudo apt install openssh-server -y
 sudo systemctl enable ssh.service
 sudo systemctl start ssh.service
+sudo mkdir /opt/sysinternals
+sudo mkdir /opt/privesc/linux
+sudo mkdir /opt/privesc/windows
+sudo mkdir /opt/adtools/pingcastle
+sudo mkdir /opt/c2/sliver
+sudo mkdir /opt/proxy/burp
+
+
 sudo wget https://download.sysinternals.com/files/SysinternalsSuite.zip -O /opt/sysinternals/
 sudo wget https://github.com/carlospolop/PEASS-ng/releases/download/20220814/linpeas.sh -O /opt/privesc/linux/linpeas.sh
 sudo wget https://github.com/carlospolop/PEASS-ng/releases/download/20220814/winPEAS.bat -O /opt/privesc/windows/linpeas.bat
