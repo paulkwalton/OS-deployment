@@ -8,9 +8,9 @@ sudo apt install windows-binaries -y
 sudo apt install openssh-server -y
 sudo systemctl enable ssh.service
 sudo systemctl start ssh.service
-sudo wget https://download.sysinternals.com/files/SysinternalsSuite.zip /opt
-sudo wget https://github.com/carlospolop/PEASS-ng/releases/download/20220814/linpeas.sh /opt/privesc/linux/linpeas.sh
-sudo wget https://github.com/carlospolop/PEASS-ng/releases/download/20220814/winPEAS.bat /opt/privesc/windows/linpeas.bat
+sudo wget https://download.sysinternals.com/files/SysinternalsSuite.zip -O /opt/sysinternals/
+sudo wget https://github.com/carlospolop/PEASS-ng/releases/download/20220814/linpeas.sh -O /opt/privesc/linux/linpeas.sh
+sudo wget https://github.com/carlospolop/PEASS-ng/releases/download/20220814/winPEAS.bat -O /opt/privesc/windows/linpeas.bat
 sudo git clone https://github.com/paulkwalton/scripts.git /opt/scripts/
 sudo git clone https://github.com/rebootuser/LinEnum.git /opt/privesc/linux/linenum
 sudo git clone https://github.com/bitsadmin/wesng.git /opt/privesc/windows/exploit-suggester
@@ -20,12 +20,12 @@ sudo git clone https://github.com/r3motecontrol/Ghostpack-CompiledBinaries.git /
 sudo git clone https://gchq.github.io/CyberChef/ /opt/gchq-cyberchef
 sudo git clone https://github.com/ropnop/kerbrute /opt/adtools
 sudo git clone https://github.com/sc0tfree/updog.git /opt/filehosting
-sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_linux /opt/c2/sliver/sliver-server_linux
-sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_windows.exe /opt/c2/sliver/sliver-server_windows.exe
-sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_windows.exe /opt/c2/sliver/sliver-client_windows.exe
-sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_linux /opt/c2/sliver/sliver-client_linux
-sudo wget https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Linux /opt/proxy/burp/linux
-sudo wget https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Windows /opt/proxy/burp/windows
+sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_linux -O /opt/c2/sliver/sliver-server_linux
+sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_windows.exe -O /opt/c2/sliver/sliver-server_windows.exe
+sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_windows.exe -O /opt/c2/sliver/sliver-client_windows.exe
+sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_linux -O /opt/c2/sliver/sliver-client_linux
+sudo wget https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Linux -O /opt/proxy/burp/linux
+sudo wget https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Windows -O /opt/proxy/burp/windows
 sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo apt install gdebi-core -y
 sudo gdebi google-chrome-stable_current_amd64.deb -y
