@@ -16,6 +16,11 @@ sudo git clone https://github.com/Mebus/cupp.git /opt/passwords/cupp
 sudo git clone https://github.com/r3motecontrol/Ghostpack-CompiledBinaries.git /opt/privesc/windows/ghostpack
 sudo git clone https://gchq.github.io/CyberChef/ /opt/gchq-cyberchef
 sudo git clone https://github.com/ropnop/kerbrute /opt/adtools
+sudo git clone https://github.com/sc0tfree/updog.git /opt/filehosting
+sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_linux /opt/c2/sliver/sliver-server_linux
+sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_windows.exe /opt/c2/sliver/sliver-server_windows.exe
+sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_windows.exe /opt/c2/sliver/sliver-client_windows.exe
+sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_linux /opt/c2/sliver/sliver-client_linux
 sudo apt install wpscan -y
 sudo wpscan --update 
 sudo apt install macchanger -y
@@ -54,7 +59,7 @@ sudo apt install hashid -y
 sudo apt install spray -y
 sudo apt install poshc2 -y
 sudo apt install bloodhound -y
-sudo git clone https://github.com/sc0tfree/updog.git /opt
+sudo apt install responder -y
 sudo gem install evil-winrm
 sudo apt-get update -y
 sudo apt autoremove
