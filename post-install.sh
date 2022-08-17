@@ -23,6 +23,9 @@ sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-c
 sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_linux /opt/c2/sliver/sliver-client_linux
 sudo wget https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Linux /opt/proxy/burp/linux
 sudo wget https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Windows /opt/proxy/burp/windows
+sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install gdebi-core -y
+sudo gdebi google-chrome-stable_current_amd64.deb -y
 sudo curl https://sliver.sh/install|sudo bash
 sudo apt-get install wget gpg
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
