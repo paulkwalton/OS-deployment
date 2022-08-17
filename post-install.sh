@@ -8,11 +8,11 @@ sudo apt install windows-binaries -y
 sudo apt install openssh-server -y
 sudo systemctl enable ssh.service
 sudo systemctl start ssh.service
-sudo mkdir /opt/sysinternals/
+sudo mkdir -p /opt/sysinternals/
 sudo wget -O /opt/sysinternals/sysinternals.zip https://download.sysinternals.com/files/SysinternalsSuite.zip 
-sudo mkdir /opt/privesc/linux
+sudo mkdir -p /opt/privesc/linux
 sudo wget -O /opt/privesc/linux/linpeas.sh https://github.com/carlospolop/PEASS-ng/releases/download/20220814/linpeas.sh
-sudo mkdir /opt/privesc/windows
+sudo mkdir -p /opt/privesc/windows
 sudo wget -O /opt/privesc/windows/linpeas.bat https://github.com/carlospolop/PEASS-ng/releases/download/20220814/winPEAS.bat
 sudo git clone https://github.com/paulkwalton/scripts.git /opt/scripts/
 sudo git clone https://github.com/rebootuser/LinEnum.git /opt/privesc/linux/linenum
@@ -23,14 +23,14 @@ sudo git clone https://github.com/r3motecontrol/Ghostpack-CompiledBinaries.git /
 sudo git clone https://gchq.github.io/CyberChef/ /opt/gchq-cyberchef
 sudo git clone https://github.com/ropnop/kerbrute /opt/adtools/kerbrute
 sudo git clone https://github.com/sc0tfree/updog.git /opt/filehosting
-sudo mkdir /opt/adtools/
+sudo mkdir -p /opt/adtools/
 sudo wget -O /opt/adtools/pingcastle https://github.com/vletoux/pingcastle/releases/download/2.11.0.0/PingCastle_2.11.0.0.zip
-sudo mkdir /opt/c2/sliver
+sudo mkdir -p /opt/c2/sliver
 sudo wget -O /opt/c2/sliver/sliver-server_linux https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_linux
 sudo wget -O /opt/c2/sliver/sliver-server_windows.exe https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_windows.exe
 sudo wget -O /opt/c2/sliver/sliver-client_windows.exe https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_windows.exe
 sudo wget -O /opt/c2/sliver/sliver-client_linux https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_linux
-sudo mkdir /opt/proxy/burp
+sudo mkdir -p /opt/proxy/burp
 sudo wget -O /opt/proxy/burp/linux https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Linux
 sudo wget -O /opt/proxy/burp/windows https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Windows
 sudo wget -O /opt/adtools/windapsearch https://github.com/ropnop/go-windapsearch/releases/download/v0.3.0/windapsearch-linux-amd64
