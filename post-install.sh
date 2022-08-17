@@ -21,6 +21,8 @@ sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-s
 sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_windows.exe /opt/c2/sliver/sliver-server_windows.exe
 sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_windows.exe /opt/c2/sliver/sliver-client_windows.exe
 sudo wget https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_linux /opt/c2/sliver/sliver-client_linux
+sudo wget https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Linux /opt/proxy/burp/linux
+sudo wget https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Windows /opt/proxy/burp/windows
 sudo curl https://sliver.sh/install|sudo bash
 sudo apt install wpscan -y
 sudo wpscan --update 
