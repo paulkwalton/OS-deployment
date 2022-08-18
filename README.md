@@ -4,6 +4,6 @@ Download the Kali 64 Bit 7zip (Not Weekly) https://www.kali.org/get-kali/#kali-v
 
 Unzip the 7zip file and deploy to VMware Workstation
 
-Run post-install.sh
+Change the Kali user password, git clone this repo and run post-install.sh
 
 RDP requires a restart and password change, connect on port 3390 for RDP
