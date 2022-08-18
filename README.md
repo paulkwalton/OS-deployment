@@ -6,4 +6,4 @@ Unzip the 7zip file and deploy to VMware Workstation
 
 Run post-install.sh
 
-RDP requires a restart and password change
+RDP requires a restart and password change, connect on port 3390 for RDP
