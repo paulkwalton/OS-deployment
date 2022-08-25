@@ -18,5 +18,6 @@ git clone https://github.com/Kevin-Robertson/Inveigh.git c:\windows\temp\inveigh
 git clone https://github.com/adrecon/ADRecon.git c:\windows\temp\adrecon
 git clone https://github.com/GhostPack/Rubeus.git c:\windows\temp\rubeus
 git clone https://github.com/GhostPack/Seatbelt.git c:\windows\temp\seatbelt
-
+git clone https://github.com/GhostPack/SharpUp.git c:\windows\temp\sharpup
+git clone https://github.com/cube0x0/SharpMapExec.git c:\windows\temp\sharpmapexec
 wsl --install
