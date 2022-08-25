@@ -22,5 +22,5 @@ Windows 10
 
 1. Download and install a Windows ISO in VMware Workstation.
 2. Install VMware Tools and Fully patch the Windows Virtual Machine
-3. Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+3. Install Git For Windows.
 
