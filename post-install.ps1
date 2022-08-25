@@ -8,3 +8,7 @@ choco install sysinternals -y
 choco install putty.install -y
 choco install vscode -y
 choco install filezilla -y
+choco install adexplorer -y
+choco install rsat -y
+
+wsl --install
