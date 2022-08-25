@@ -20,4 +20,7 @@ Note : If the Kali box doesn't obtain a DHCP address after initial reboot, resta
 
 Windows 10
 
+1. Download and install a Windows ISO in VMware Workstation.
+2. Install VMware Tools and Fully patch the Windows Virtual Machine
+3. Install Git Tools On Windows OS.
 
