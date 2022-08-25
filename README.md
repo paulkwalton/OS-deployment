@@ -23,6 +23,6 @@ Windows 10
 1. Download and install a Windows ISO in VMware Workstation.
 2. Install VMware Tools and Fully patch the Windows Virtual Machine
 3. Install Git For Windows.
-4. Clone repo, run disable-defnder.ps1 with admin and execution policy unrestricted.
-5. Now run post-install.ps1
+4. Go here and disable Windows Defender Using Group Policy https://www.technewstoday.com/how-to-turn-off-windows-defender/
+5. Now clone this repo and run post-install.ps1
 
