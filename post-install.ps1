@@ -2,10 +2,10 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 choco install adobereader -y
 choco install googlechrome -y
 choco install firefox -y
-choco install jre8 -y
 choco install notepadplusplus.install -y
 choco install 7zip.install -y
 choco install python -y
 choco install sysinternals -y
 choco install putty.install -y
 choco install vscode -y
+choco install filezilla -y
