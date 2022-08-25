@@ -1,4 +1,6 @@
-# Kali-deployment
+# OS-deployment
+
+Kali-Linux
 
 This is a Kali post deployment script to compliment the Kali Linux Official VMware image. It will install useful applications, harden the image and enable SSH/RDP remote access.
 
@@ -15,5 +17,7 @@ This is a Kali post deployment script to compliment the Kali Linux Official VMwa
 6. When the script completes, it will reboot the Kali Box to enable RDP Access (on Port 3390).
 
 Note : If the Kali box doesn't obtain a DHCP address after initial reboot, restart again to resolve.
+
+Windows 10
 
 
