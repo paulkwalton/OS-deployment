@@ -12,6 +12,11 @@ choco install filezilla -y
 choco install adexplorer -y
 choco install rsat -y
 choco install nmap -y
+choco install burp-suite-pro-edition -y
+choco install wireshark -y
+choco install winscp -y
+choco install vnc-viewer -y
+
 git clone https://github.com/PowerShellMafia/PowerSploit.git c:\tools\powersploit
 git clone https://github.com/dafthack/MailSniper.git c:\tools\mailsniper
 git clone https://github.com/dafthack/DomainPasswordSpray.git c:\tools\domainpasswordspray
