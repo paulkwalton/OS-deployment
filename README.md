@@ -6,11 +6,13 @@ This is a Kali post deployment script to compliment the Kali Linux Official VMwa
 
 2. Unzip the 7zip file and deploy to VMware Workstation
 
-3. Launch the Kali image login as kali/kali, and change the Kali User Password.
+3. Upgrade the Virtual Machine Hardware from 8 to 16.2
 
-4. git clone this repo and run post-install.sh
+4. Launch the Kali image login as kali/kali, and change the Kali User Password.
 
-5. When the script completes, it will reboot the Kali Box to enable RDP Access (on Port 3390).
+5. git clone this repo and run post-install.sh
+
+6. When the script completes, it will reboot the Kali Box to enable RDP Access (on Port 3390).
 
 Note : If the Kali box doesn't obtain a DHCP address after initial reboot, restart again to resolve.
 
