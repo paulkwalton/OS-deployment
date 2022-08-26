@@ -85,7 +85,8 @@ sudo apt install spray -y
 sudo apt install poshc2 -y
 sudo apt install bloodhound -y
 sudo apt install responder -y
-sudo apt install poshc2 -y
+sudo apt install powershell-empire -y
+sudo apt install starkiller -y
 sudo gem install evil-winrm
 sudo apt-get update -y
 sudo apt autoremove -y
