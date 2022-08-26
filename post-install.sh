@@ -3,6 +3,7 @@ sudo apt full-upgrade -y
 sudo apt install rkhunter -y
 echo Check For Rootkits Using RKHunter
 sudo rkhunter -c -sk
+curl -sSL https://raw.githubusercontent.com/nettitude/PoshC2/dev/Install.sh | sudo bash -s -- -b dev
 sudo apt install default-jdk -y
 sudo apt install build-essential -y
 sudo apt install windows-binaries -y 
@@ -83,7 +84,6 @@ sudo apt install jython -y
 sudo apt install sqlitebrowser -y
 sudo apt install hashid -y
 sudo apt install spray -y
-sudo curl -sSL https://raw.githubusercontent.com/nettitude/PoshC2/master/Install.sh | sudo bash
 sudo apt install bloodhound -y
 sudo apt install responder -y
 sudo gem install evil-winrm
