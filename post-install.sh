@@ -82,7 +82,7 @@ sudo apt install jython -y
 sudo apt install sqlitebrowser -y
 sudo apt install hashid -y
 sudo apt install spray -y
-sudo apt install poshc2 -y
+sudo curl -sSL https://raw.githubusercontent.com/nettitude/PoshC2/master/Install.sh | sudo bash
 sudo apt install bloodhound -y
 sudo apt install responder -y
 sudo gem install evil-winrm
