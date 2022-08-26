@@ -103,4 +103,5 @@ sed -i 's/port=3389/port=3390/g' /etc/xrdp/xrdp.ini
 sudo systemctl enable xrdp --now
 sudo shutdown -r now
 
+
 echo NOW CHANGE PASSWORDS
