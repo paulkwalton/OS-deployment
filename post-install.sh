@@ -1,4 +1,5 @@
 sudo apt-get update -y && sudo apt-get upgrade -y
+sudo apt full-upgrade -y
 sudo apt install rkhunter -y
 echo Check For Rootkits Using RKHunter
 sudo rkhunter -c -sk
