@@ -86,6 +86,7 @@ sudo apt install hashid -y
 sudo apt install spray -y
 sudo apt install bloodhound -y
 sudo apt install responder -y
+sudo apt install yersinia -y
 sudo gem install evil-winrm
 sudo apt-get update -y
 sudo apt autoremove -y
