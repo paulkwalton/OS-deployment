@@ -39,6 +39,7 @@ sudo mkdir -p /opt/proxy/burp
 sudo wget -O /opt/proxy/burp/linux https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Linux
 sudo wget -O /opt/proxy/burp/windows https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Windows
 sudo wget -O /opt/adtools/windapsearch https://github.com/ropnop/go-windapsearch/releases/download/v0.3.0/windapsearch-linux-amd64
+sudo wget -O /opt/expressvpn https://www.expressvpn.works/clients/linux/expressvpn_3.30.0.2-1_amd64.deb
 sudo git clone https://github.com/attackdebris/kerberos_enum_userlists.git /opt/wordlists/kerberos_enum_userlists
 sudo apt-get install wget gpg -y
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
