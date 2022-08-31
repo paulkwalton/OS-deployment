@@ -89,6 +89,7 @@ sudo apt install bloodhound -y
 sudo apt install responder -y
 sudo apt install yersinia -y
 sudo apt install spiderfoot -y
+sudo apt install amass-common -y
 dpkg --add-architecture i386 && apt-get update -y && apt-get install wine32:i386 -y
 sudo gem install evil-winrm
 sudo apt-get update -y
