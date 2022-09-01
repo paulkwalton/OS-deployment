@@ -4,6 +4,7 @@ sudo apt install rkhunter -y
 echo Check For Rootkits Using RKHunter
 sudo rkhunter -c -sk
 curl -sSL https://raw.githubusercontent.com/nettitude/PoshC2/dev/Install.sh | sudo bash -s -- -b dev
+sudo apt install leafpad -y
 sudo apt install default-jdk -y
 sudo apt install build-essential -y
 sudo apt install windows-binaries -y 
