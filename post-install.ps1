@@ -33,5 +33,6 @@ git clone https://github.com/GhostPack/SharpUp.git c:\tools\sharpup
 git clone https://github.com/cube0x0/SharpMapExec.git c:\tools\sharpmapexec
 git clone https://github.com/Flangvik/NetLoader.git c:\tools\netloader
 wget https://windows.metasploit.com/metasploitframework-latest.msi -OutFile c:\tools\metasploit.msi
+git clone https://github.com/davidprowe/BadBlood.git c:\tools\badblood
 c:\tools\metasploit.msi /q /log $LogLocation INSTALLLOCATION="c:\tools\metasploit"
 wsl --install
