@@ -21,6 +21,7 @@ choco install -y sql-server-management-studio
 choco install -y visualstudio2022community 
 choco install -y tor-browser
 choco install rsat -y
+choco install zap -y
 
 
 git clone https://github.com/PowerShellMafia/PowerSploit.git c:\tools\powersploit
