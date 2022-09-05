@@ -33,6 +33,7 @@ git clone https://github.com/GhostPack/SharpUp.git c:\tools\sharpup
 git clone https://github.com/cube0x0/SharpMapExec.git c:\tools\sharpmapexec
 git clone https://github.com/Flangvik/NetLoader.git c:\tools\netloader
 wget https://windows.metasploit.com/metasploitframework-latest.msi -OutFile c:\tools\metasploit.msi
+wget https://www.expressvpn.works/clients/windows/expressvpn_windows_10.30.0.0_release.exe -OutFile c:\tools\expressvpn_windows_10.30.0.0_release.exe
 git clone https://github.com/davidprowe/BadBlood.git c:\tools\badblood
 c:\tools\metasploit.msi /q /log $LogLocation INSTALLLOCATION="c:\tools\metasploit"
 wsl --install
