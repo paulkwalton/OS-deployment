@@ -25,8 +25,12 @@ choco install -y visualstudio2022community
 choco install -y tor-browser
 choco install rsat -y
 choco install zap -y
+choco install python -y
 
 
+git clone https://github.com/smicallef/spiderfoot.git c:\tools\spiderfoot
+cd c:\tools\spiderfoot
+pip install -r requirements.txt
 git clone https://github.com/PowerShellMafia/PowerSploit.git c:\tools\powersploit
 git clone https://github.com/dafthack/MailSniper.git c:\tools\mailsniper
 git clone https://github.com/dafthack/DomainPasswordSpray.git c:\tools\domainpasswordspray
