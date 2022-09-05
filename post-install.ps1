@@ -43,6 +43,9 @@ git clone https://github.com/cube0x0/SharpMapExec.git c:\tools\sharpmapexec
 git clone https://github.com/Flangvik/NetLoader.git c:\tools\netloader
 git clone https://github.com/BloodHoundAD/AzureHound c:\tools\azurehound
 git clone https://github.com/nyxgeek/o365recon.git c:\tools\office365recon
+git clone https://github.com/S3cur3Th1sSh1t/WinPwn.git c:\tools\winpwn
+git clone https://github.com/dafthack/MSOLSpray.git c:\tools\msolspray
+
 
 
 wget https://windows.metasploit.com/metasploitframework-latest.msi -OutFile c:\tools\metasploit.msi
