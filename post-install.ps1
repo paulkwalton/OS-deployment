@@ -15,6 +15,12 @@ choco install burp-suite-pro-edition -y
 choco install wireshark -y
 choco install winscp -y
 choco install vnc-viewer -y
+choco install -y keepass.install
+choco install -y postman
+choco install -y sql-server-management-studio
+choco install -y visualstudio2022community 
+choco install -y tor-browser
+
 
 git clone https://github.com/PowerShellMafia/PowerSploit.git c:\tools\powersploit
 git clone https://github.com/dafthack/MailSniper.git c:\tools\mailsniper
