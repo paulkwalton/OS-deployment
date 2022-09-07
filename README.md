@@ -25,7 +25,8 @@ Windows 10
 3. Create a VMware Template from this image for future deployments.
 4. Install Git For Windows.
 5. Disable Windows Defender Using Group Policy https://www.technewstoday.com/how-to-turn-off-windows-defender/
-6. git clone https://github.com/paulkwalton/OS-deployment.git
-7. Set-ExecutionPolicy Unrestricted
-8. ./post-install.ps1
+6. Restart Windows
+7. git clone https://github.com/paulkwalton/OS-deployment.git
+8. Set-ExecutionPolicy Unrestricted
+9. ./post-install.ps1
 
