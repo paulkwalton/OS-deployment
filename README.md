@@ -24,5 +24,7 @@ Windows 10
 2. Install VMware Tools and Fully patch the Windows Virtual Machine
 3. Install Git For Windows.
 4. Go here and disable Windows Defender Using Group Policy https://www.technewstoday.com/how-to-turn-off-windows-defender/
-5. Now clone this repo and run post-install.ps1
+5. git clone 
+6. Set-ExecutionPolicy Unrestricted
+7. ./post-install.ps1
 
