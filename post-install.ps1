@@ -4,8 +4,6 @@ Get-WindowsUpdate
 Install-WindowsUpdate
 # Remove all the Windows Bloatware
 Get-AppxPackage * | Remove-AppxPackage
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser # Optional: Needed to run a remote script the first time
-irm get.scoop.sh | iex
 mkdir c:\tools
 choco install adobereader -y
 choco install googlechrome -y
