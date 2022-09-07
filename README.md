@@ -21,10 +21,11 @@ Note : If the Kali box doesn't obtain a DHCP address after initial reboot, resta
 Windows 10
 
 1. Download and install a Windows ISO in VMware Workstation.
-2. Install VMware Tools and Fully patch the Windows Virtual Machine
-3. Install Git For Windows.
-4. Go here and disable Windows Defender Using Group Policy https://www.technewstoday.com/how-to-turn-off-windows-defender/
-5. git clone 
-6. Set-ExecutionPolicy Unrestricted
-7. ./post-install.ps1
+2. Install VMware Tools and Fully patch the Windows Virtual Machine.
+3. Create a VMware Template from this image for future deployments.
+4. Install Git For Windows.
+5. Disable Windows Defender Using Group Policy https://www.technewstoday.com/how-to-turn-off-windows-defender/
+6. git clone https://github.com/paulkwalton/OS-deployment.git
+7. Set-ExecutionPolicy Unrestricted
+8. ./post-install.ps1
 
