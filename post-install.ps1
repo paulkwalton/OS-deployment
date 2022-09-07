@@ -2,6 +2,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 Install-Module PSWindowsUpdate
 Get-WindowsUpdate
 Install-WindowsUpdate
+Get-AppxPackage * | Remove-AppxPackage
 mkdir c:\tools
 choco install adobereader -y
 choco install googlechrome -y
