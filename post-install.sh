@@ -36,9 +36,6 @@ sudo wget -O /opt/c2/sliver/sliver-server_linux https://github.com/BishopFox/sli
 sudo wget -O /opt/c2/sliver/sliver-server_windows.exe https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-server_windows.exe
 sudo wget -O /opt/c2/sliver/sliver-client_windows.exe https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_windows.exe
 sudo wget -O /opt/c2/sliver/sliver-client_linux https://github.com/BishopFox/sliver/releases/download/v1.5.22/sliver-client_linux
-sudo mkdir -p /opt/proxy/burp
-sudo wget -O /opt/proxy/burp/linux https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Linux
-sudo wget -O /opt/proxy/burp/windows https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.1&type=Windows
 sudo wget -O /opt/adtools/windapsearch https://github.com/ropnop/go-windapsearch/releases/download/v0.3.0/windapsearch-linux-amd64
 sudo wget -O /opt/expressvpn https://www.expressvpn.works/clients/linux/expressvpn_3.30.0.2-1_amd64.deb
 sudo git clone https://github.com/attackdebris/kerberos_enum_userlists.git /opt/wordlists/kerberos_enum_userlists
