@@ -62,6 +62,7 @@ git clone https://github.com/offensive-security/exploitdb.git c:\tools\exploitdb
 git clone https://github.com/offensive-security/exploitdb-bin-sploits.git c:\tools\exploitdb-bin
 git clone https://github.com/danielbohannon/Invoke-Obfuscation.git c:\tools\invoke-obfuscation
 git clone https://github.com/gentilkiwi/mimikatz.git c:\tools\mimikatz
+git clone https://github.com/CCob/SweetPotato.git c:\tools\sweetpotato
 
 
 Write-Output "Download Express VPN"
