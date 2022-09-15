@@ -48,9 +48,6 @@ git clone https://github.com/nyxgeek/o365recon.git c:\tools\office365recon
 git clone https://github.com/S3cur3Th1sSh1t/WinPwn.git c:\tools\winpwn
 git clone https://github.com/dafthack/MSOLSpray.git c:\tools\msolspray
 
-
-
-wget https://windows.metasploit.com/metasploitframework-latest.msi -OutFile c:\tools\metasploit.msi
 wget https://www.expressvpn.works/clients/windows/expressvpn_windows_10.30.0.0_release.exe -OutFile c:\tools\expressvpn_windows_10.30.0.0_release.exe
 wget https://download3.vmware.com/software/CART23FQ2_WIN_2206/VMware-Horizon-Client-2206-8.6.0-20094380.exe -OutFile c:\tools\VMware-Horizon-Client-2206-8.6.0-20094380.exe
 wget https://github.com/vletoux/pingcastle/releases/download/2.11.0.1/PingCastle_2.11.0.1.zip -OutFile c:\tools\PingCastle_2.11.0.1.zip
