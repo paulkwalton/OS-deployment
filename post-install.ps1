@@ -53,14 +53,22 @@ git clone https://github.com/nyxgeek/o365recon.git c:\tools\office365recon
 git clone https://github.com/S3cur3Th1sSh1t/WinPwn.git c:\tools\winpwn
 git clone https://github.com/dafthack/MSOLSpray.git c:\tools\msolspray
 
+Write-Output "Download Express VPN"
 wget https://www.expressvpn.works/clients/windows/expressvpn_windows_10.30.0.0_release.exe -OutFile c:\tools\expressvpn_windows_10.30.0.0_release.exe
+Write-Output "Download VMware Horizon Client"
 wget https://download3.vmware.com/software/CART23FQ2_WIN_2206/VMware-Horizon-Client-2206-8.6.0-20094380.exe -OutFile c:\tools\VMware-Horizon-Client-2206-8.6.0-20094380.exe
+Write-Output "Download Ping Castle"
 wget https://github.com/vletoux/pingcastle/releases/download/2.11.0.1/PingCastle_2.11.0.1.zip -OutFile c:\tools\PingCastle_2.11.0.1.zip
+Write-Output "Download Shellter Project"
 wget https://www.shellterproject.com/Downloads/Shellter/Latest/shellter.zip -OutFile c:\tools\shellter.zip
+Write-Output "Download PEStudio"
 wget https://www.winitor.com/tools/pestudio/current/pestudio.zip -OutFile c:\tools\pestudio.zip
+Write-Output "Download Badblood AD Population Tool"
 git clone https://github.com/davidprowe/BadBlood.git c:\tools\badblood
+Write-Output "Download Scripts"
 git clone https://github.com/paulkwalton/scripts.git c:\tools\scripts
 # Restart Windows & rename Windows
+Write-Output "Rename & Reboot Windows"
 Rename-Computer -NewName "WinTak"
 Restart-Computer
 
