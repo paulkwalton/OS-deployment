@@ -1,11 +1,15 @@
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 Install-Module PSWindowsUpdate
+Write-Output "Check For Windows Updates"
 Get-WindowsUpdate
 # Install Windows Update
+Write-Output "Installing Windows Updates"
 Install-WindowsUpdate
 # Install Bit Locker (Requires VMWare VBS enabled)
+Write-Output "Enable Bit Locker"
 Install-WindowsFeature BitLocker -IncludeAllSubFeature -IncludeManagementTools
 # Remove all the Windows Bloatware
+Write-Output "Remove Bloatware"
 Get-AppxPackage * | Remove-AppxPackage
 mkdir c:\tools
 # Install Tools Via Choc
