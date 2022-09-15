@@ -35,9 +35,11 @@ choco install zap -y
 choco install python -y
 
 # Clone Tools From Github
+Write-Output "Download & Install Spiderfoot"
 git clone https://github.com/smicallef/spiderfoot.git c:\tools\spiderfoot
 cd c:\tools\spiderfoot
 pip install -r requirements.txt
+Write-Output "Download Github Tooling"
 git clone https://github.com/PowerShellMafia/PowerSploit.git c:\tools\powersploit
 git clone https://github.com/dafthack/MailSniper.git c:\tools\mailsniper
 git clone https://github.com/dafthack/DomainPasswordSpray.git c:\tools\domainpasswordspray
