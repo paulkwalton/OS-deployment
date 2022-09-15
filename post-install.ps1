@@ -51,6 +51,7 @@ git clone https://github.com/adrecon/ADRecon.git c:\tools\adrecon
 git clone https://github.com/GhostPack/Rubeus.git c:\tools\rubeus
 git clone https://github.com/GhostPack/Seatbelt.git c:\tools\seatbelt
 git clone https://github.com/GhostPack/SharpUp.git c:\tools\sharpup
+git clone https://github.com/GhostPack/Certify.git c:\tools\certify
 git clone https://github.com/cube0x0/SharpMapExec.git c:\tools\sharpmapexec
 git clone https://github.com/Flangvik/NetLoader.git c:\tools\netloader
 git clone https://github.com/BloodHoundAD/AzureHound c:\tools\azurehound
