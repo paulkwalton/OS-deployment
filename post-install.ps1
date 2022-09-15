@@ -58,7 +58,8 @@ git clone https://github.com/BloodHoundAD/AzureHound c:\tools\azurehound
 git clone https://github.com/nyxgeek/o365recon.git c:\tools\office365recon
 git clone https://github.com/S3cur3Th1sSh1t/WinPwn.git c:\tools\winpwn
 git clone https://github.com/dafthack/MSOLSpray.git c:\tools\msolspray
-git clone https://github.com/offensive-security/exploitdb.git c:\tools\exploitdb
+git clone https://github.com/offensive-security/exploitdb.git c:\tools\exploitdb-source
+git clone https://github.com/offensive-security/exploitdb-bin-sploits.git c:\tools\exploitdb-bin
 
 Write-Output "Download Express VPN"
 wget https://www.expressvpn.works/clients/windows/expressvpn_windows_10.30.0.0_release.exe -OutFile c:\tools\expressvpn_windows_10.30.0.0_release.exe
