@@ -5,6 +5,7 @@ Install-WindowsUpdate
 # Remove all the Windows Bloatware
 Get-AppxPackage * | Remove-AppxPackage
 mkdir c:\tools
+# Install Tools Via Choc
 choco install adobereader -y
 choco install googlechrome -y
 choco install firefox -y
@@ -29,7 +30,7 @@ choco install rsat -y
 choco install zap -y
 choco install python -y
 
-
+# Clone Tools From Github
 git clone https://github.com/smicallef/spiderfoot.git c:\tools\spiderfoot
 cd c:\tools\spiderfoot
 pip install -r requirements.txt
@@ -55,5 +56,7 @@ wget https://www.shellterproject.com/Downloads/Shellter/Latest/shellter.zip -Out
 wget https://www.winitor.com/tools/pestudio/current/pestudio.zip -OutFile c:\tools\pestudio.zip
 git clone https://github.com/davidprowe/BadBlood.git c:\tools\badblood
 git clone https://github.com/paulkwalton/scripts.git c:\tools\scripts
+# Restart Windows
+Restart-Computer
 
 
