@@ -36,6 +36,8 @@ choco install zap -y
 choco install python -y
 choco install golang -y
 choco install openoffice -y
+choco install keepassx -y
+choco install angryip -y
 
 # Clone Tools From Github
 Write-Output "Download & Install Spiderfoot"
