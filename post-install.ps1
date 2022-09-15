@@ -5,9 +5,6 @@ Get-WindowsUpdate
 # Install Windows Update
 Write-Output "Installing Windows Updates"
 Install-WindowsUpdate
-# Install Bit Locker (Requires VMWare VBS enabled)
-Write-Output "Enable Bit Locker"
-Install-WindowsFeature BitLocker -IncludeAllSubFeature -IncludeManagementTools
 # Remove all the Windows Bloatware
 Write-Output "Remove Bloatware"
 Get-AppxPackage * | Remove-AppxPackage
