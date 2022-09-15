@@ -56,7 +56,8 @@ wget https://www.shellterproject.com/Downloads/Shellter/Latest/shellter.zip -Out
 wget https://www.winitor.com/tools/pestudio/current/pestudio.zip -OutFile c:\tools\pestudio.zip
 git clone https://github.com/davidprowe/BadBlood.git c:\tools\badblood
 git clone https://github.com/paulkwalton/scripts.git c:\tools\scripts
-# Restart Windows
+# Restart Windows & rename Windows
+Rename-Computer -NewName "WinTak"
 Restart-Computer
 
 
