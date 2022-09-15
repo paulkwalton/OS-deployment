@@ -6,6 +6,7 @@ Install-WindowsUpdate
 Get-AppxPackage * | Remove-AppxPackage
 mkdir c:\tools
 # Install Tools Via Choc
+choco install bginfo -y
 choco install adobereader -y
 choco install googlechrome -y
 choco install firefox -y
