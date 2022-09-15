@@ -20,7 +20,7 @@ Note : If the Kali box doesn't obtain a DHCP address after initial reboot, resta
 
 Windows 10
 
-1. Download and install a Windows ISO in VMware Workstation. Enable EBS within Vmware to allow Bitlocker disk Encryption
+1. Download and install a Windows ISO in VMware Workstation. Enable VBS within Vmware (Advanced Option) to allow Bitlocker disk Encryption
 2. Install VMware Tools and Fully patch the Windows Virtual Machine.
 3. Create a VMware Template from this image for future deployments (Less than 8gb and install goes slow)
 4. Install Git For Windows.
