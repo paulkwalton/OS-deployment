@@ -34,6 +34,8 @@ choco install -y tor-browser
 choco install rsat -y
 choco install zap -y
 choco install python -y
+choco install golang -y
+choco install openoffice -y
 
 # Clone Tools From Github
 Write-Output "Download & Install Spiderfoot"
