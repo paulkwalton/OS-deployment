@@ -58,6 +58,8 @@ sudo apt install powershell  -y
 sudo apt install shellter -y
 sudo apt install netcat -y
 sudo apt install tilix -y
+sudo apt install sqlmap -y
+sudo apt install gobuster -y
 sudo apt install iputils-ping -y
 sudo apt install dirbuster -y
 sudo apt install dirb -y
