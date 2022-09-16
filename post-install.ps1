@@ -71,8 +71,8 @@ Write-Output "Download Express VPN"
 wget https://www.expressvpn.works/clients/windows/expressvpn_windows_10.30.0.0_release.exe -OutFile c:\tools\expressvpn_windows_10.30.0.0_release.exe
 Write-Output "Download Ping Castle"
 wget https://github.com/vletoux/pingcastle/releases/download/2.11.0.1/PingCastle_2.11.0.1.zip -OutFile c:\tools\PingCastle_2.11.0.1.zip
-Write-Output "Download Shellter Project"
-wget https://www.shellterproject.com/Downloads/Shellter/Latest/shellter.zip -OutFile c:\tools\shellter.zip
+Write-Output "Download Docker"
+wget https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe -OutFile c:\tools\DockerDesktopInstaller.exe
 Write-Output "Download PEStudio"
 wget https://www.winitor.com/tools/pestudio/current/pestudio.zip -OutFile c:\tools\pestudio.zip
 Write-Output "Download Badblood AD Population Tool"
