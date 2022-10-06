@@ -94,7 +94,9 @@ sudo apt install amass-common -y
 sudo apt install psql -y
 sudo pip install mitm6
 sudo pip install exrex
+sudo exrex "((W|w)inter|(S|s)ummer|(F|f)all|(A|a)utumn|(S|s)pring)20(16|17|18|19|20|21|22)" > /tmp/seasons.txt
 dpkg --add-architecture i386 && apt-get update -y && apt-get install wine32:i386 -y
+sudo exrex "((J|j)anuary|(F|f)ebruary|(M|m)arch|(A|a)pril|(M|m)ay|(J|j)une|(J|j)uly|(A|a)ugust|(S|s)eptember|(O|o)ctober|(N|n)ovember|(D|d)ecember)20(16|17|18|19|20|21|22)" > /tmp/months.txt
 sudo gem install evil-winrm
 sudo apt-get update -y
 sudo apt autoremove -y
