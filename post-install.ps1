@@ -69,6 +69,7 @@ git clone https://github.com/gentilkiwi/mimikatz.git c:\tools\mimikatz
 git clone https://github.com/CCob/SweetPotato.git c:\tools\sweetpotato
 git clone https://github.com/XenocodeRCE/neo-ConfuserEx.git c:\tools\neoconfuserex
 git clone https://github.com/yck1509/ConfuserEx.git c:\tools\confuserex
+git clone https://github.com/danielmiessler/SecLists.git c:\tools\seclists
 
 
 Write-Output "Download Express VPN"
