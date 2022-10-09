@@ -17,6 +17,7 @@ sudo mkdir -p /opt/privesc/linux
 sudo wget -O /opt/privesc/linux/linpeas.sh https://github.com/carlospolop/PEASS-ng/releases/download/20220814/linpeas.sh
 sudo mkdir -p /opt/privesc/windows
 sudo wget -O /opt/privesc/windows/linpeas.bat https://github.com/carlospolop/PEASS-ng/releases/download/20220814/winPEAS.bat
+sudo git clone https://github.com/Ridter/cve-2020-0688.git /opt/exploits/cve-2020-0688
 sudo git clone https://github.com/paulkwalton/scripts.git /opt/scripts/
 sudo git clone https://github.com/rebootuser/LinEnum.git /opt/privesc/linux/linenum
 sudo git clone https://github.com/bitsadmin/wesng.git /opt/privesc/windows/exploit-suggester
