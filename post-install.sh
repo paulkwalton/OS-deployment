@@ -112,6 +112,24 @@ sudo exrex "((W|w)elcome@)(1|2|3|4|5|6|7|8|9)" >> /opt/custom-passwords.txt
 sudo exrex "((W|w)elcome@)(01|02|03|04|05|06|07|08|09)" >> /opt/custom-passwords.txt
 sudo exrex "((W|w)elcome@)(1|12|123|1234|12345|123456|1234567|12345678|123456789)" >> /opt/custom-passwords.txt
 
+sudo exrex "((A|a)dmin)(1|2|3|4|5|6|7|8|9)" >> /opt/custom-passwords.txt
+sudo exrex "((A|a)dmin)(2012|2013|2014|2015|2016|2017|2018|2019|2022)" >> /opt/custom-passwords.txt
+sudo exrex "((A|a)dmin)(@2012|@2013|@2014|@2015|@2016|@2017|@2018|@2019|@2022)" >> /opt/custom-passwords.txt
+sudo exrex "((A|a)dmin)(1|12|123|1234|12345|123456|1234567|12345678|123456789)" >> /opt/custom-passwords.txt
+sudo exrex "((A|a)dmin)(01|02|03|04|05|06|07|08|09)" >> /opt/custom-passwords.txt
+sudo exrex "((A|a)dmin@)(1|2|3|4|5|6|7|8|9)" >> /opt/custom-passwords.txt
+sudo exrex "((A|a)dmin@)(01|02|03|04|05|06|07|08|09)" >> /opt/custom-passwords.txt
+sudo exrex "((A|a)dmin@)(1|12|123|1234|12345|123456|1234567|12345678|123456789)" >> /opt/custom-passwords.txt
+
+sudo exrex "((A|a)dministrator)(1|2|3|4|5|6|7|8|9)" >> /opt/custom-passwords.txt
+sudo exrex "((A|a)dministrator)(2012|2013|2014|2015|2016|2017|2018|2019|2022)" >> /opt/custom-passwords.txt
+sudo exrex "((A|a)dministrator)(@2012|@2013|@2014|@2015|@2016|@2017|@2018|@2019|@2022)" >> /opt/custom-passwords.txt
+sudo exrex "((A|a)dministrator)(1|12|123|1234|12345|123456|1234567|12345678|123456789)" >> /opt/custom-passwords.txt
+sudo exrex "((A|a)dministrator)(01|02|03|04|05|06|07|08|09)" >> /opt/custom-passwords.txt
+sudo exrex "((A|a)dministrator@)(1|2|3|4|5|6|7|8|9)" >> /opt/custom-passwords.txt
+sudo exrex "((A|a)dministrator@)(01|02|03|04|05|06|07|08|09)" >> /opt/custom-passwords.txt
+sudo exrex "((A|a)dministrator@)(1|12|123|1234|12345|123456|1234567|12345678|123456789)" >> /opt/custom-passwords.txt
+
 sudo exrex "((L|l)ondon)(1|2|3|4|5|6|7|8|9)" >> /opt/custom-passwords.txt
 sudo exrex "((L|l)ondon)(2012|2013|2014|2015|2016|2017|2018|2019|2022)" >> /opt/custom-passwords.txt
 sudo exrex "((L|l)ondon)(@2012|@2013|@2014|@2015|@2016|@2017|@2018|@2019|@2022)" >> /opt/custom-passwords.txt
