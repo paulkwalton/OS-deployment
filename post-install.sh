@@ -136,6 +136,7 @@ sudo exrex "((L|l)ondon)(@2012|@2013|@2014|@2015|@2016|@2017|@2018|@2019|@2022)"
 sudo exrex "((L|l)ondon)(1|12|123|1234|12345|123456|1234567|12345678|123456789)" >> /opt/custom-passwords.txt
 sudo exrex "((L|l)ondon)(01|02|03|04|05|06|07|08|09)" >> /opt/custom-passwords.txt
 
+sudo exrex "((A|a)bc)(1|12|123|1234|12345|123456|1234567|12345678|123456789)" >> /opt/custom-passwords.txt
 
 sudo exrex "((A|a)tos|(W|w)ipro|(I|i)nfosys|(D|d)xc|(T|t)cs|(C|c)apgemini)(2016|2017|2018|2019|2020|2021|2022)" >> /opt/custom-passwords.txt
 sudo exrex "((A|a)tos|(W|w)ipro|(I|i)nfosys|(D|d)xc|(T|t)cs|(C|c)apgemini)(@2016|@2017|@2018|@2019|@2020|@2021|@2022)" >> /opt/custom-passwords.txt
