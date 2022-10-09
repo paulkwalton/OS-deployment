@@ -126,7 +126,7 @@ sudo exrex "((P|p)assw0rd)(01|02|03|04|05|06|07|08|09|00)" >> /opt/custom-passwo
 sudo exrex "((P|p)@ssw0rd)(01|02|03|04|05|06|07|08|09|00)" >> /opt/custom-passwords.txt
 
 sudo exrex "((J|j)anuary|(F|f)ebruary|(M|m)arch|(A|a)pril|(M|m)ay|(J|j)une|(J|j)uly|(A|a)ugust|(S|s)eptember|(O|o)ctober|(N|n)ovember|(D|d)ecember)20(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
-
+sudo exrex "((J|j)anuary|(F|f)ebruary|(M|m)arch|(A|a)pril|(M|m)ay|(J|j)une|(J|j)uly|(A|a)ugust|(S|s)eptember|(O|o)ctober|(N|n)ovember|(D|d)ecember)(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
 dpkg --add-architecture i386 && apt-get update -y && apt-get install wine32:i386 -y
 sudo gem install evil-winrm
 sudo apt-get update -y
