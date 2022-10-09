@@ -98,19 +98,22 @@ sudo pip install exrex
 
 sudo exrex "((W|w)inter|(S|s)ummer|(F|f)all|(A|a)utumn|(S|s)pring)20(16|17|18|19|20|21|22)" > /opt/custom-passwords.txt
 sudo exrex "((W|w)inter|(S|s)ummer|(F|f)all|(A|a)utumn|(S|s)pring)(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
+
 sudo exrex "((W|w)elcome)(1|2|3|4|5|6|7|8|9)" >> /opt/custom-passwords.txt
+sudo exrex "((W|w)elcome)(2012|2013|2014|2015|2016|2017|2018|2019|2022)" >> /opt/custom-passwords.txt
+sudo exrex "((W|w)elcome)(@2012|@2013|@2014|@2015|@2016|@2017|@2018|@2019|@2022)" >> /opt/custom-passwords.txt
 sudo exrex "((W|w)elcome)(1|12|123|1234|12345|123456|1234567|12345678|123456789)" >> /opt/custom-passwords.txt
 sudo exrex "((W|w)elcome)(01|02|03|04|05|06|07|08|09)" >> /opt/custom-passwords.txt
+sudo exrex "((W|w)elcome@)(1|2|3|4|5|6|7|8|9)" >> /opt/custom-passwords.txt
+sudo exrex "((W|w)elcome@)(01|02|03|04|05|06|07|08|09)" >> /opt/custom-passwords.txt
+sudo exrex "((W|w)elcome@)(1|12|123|1234|12345|123456|1234567|12345678|123456789)" >> /opt/custom-passwords.txt
 
 sudo exrex "((A|a)tos|(W|w)ipro|(I|i)nfosys|(D|d)xc|(T|t)cs|(C|c)apgemini)(2016|2017|2018|2019|2020|2021|2022)" >> /opt/custom-passwords.txt
+sudo exrex "((A|a)tos|(W|w)ipro|(I|i)nfosys|(D|d)xc|(T|t)cs|(C|c)apgemini)(@2016|@2017|@2018|@2019|@2020|@2021|@2022)" >> /opt/custom-passwords.txt
 sudo exrex "((A|a)tos|(W|w)ipro|(I|i)nfosys|(D|d)xc|(T|t)cs|(C|c)apgemini)(1|12|123|1234|12345|123456|1234567|12345678|123456789)" >> /opt/custom-passwords.txt
 sudo exrex "((A|a)tos|(W|w)ipro|(I|i)nfosys|(D|d)xc|(T|t)cs|(C|c)apgemini)(@1|@12|@123|@1234|@12345|@123456|@1234567|@12345678|@123456789)" >> /opt/custom-passwords.txt
 sudo exrex "((A|a)tos|(W|w)ipro|(I|i)nfosys|(D|d)xc|(T|t)cs|(C|c)apgemini)(@1|@2|@3|@4|@5|@6|@7|@8|@9)" >> /opt/custom-passwords.txt
 sudo exrex "((A|a)tos|(W|w)ipro|(I|i)nfosys|(D|d)xc|(T|t)cs|(C|c)apgemini)(1|2|3|4|5|6|7|8|9)" >> /opt/custom-passwords.txt
-
-sudo exrex "((W|w)elcome@)(1|2|3|4|5|6|7|8|9)" >> /opt/custom-passwords.txt
-sudo exrex "((W|w)elcome@)(01|02|03|04|05|06|07|08|09)" >> /opt/custom-passwords.txt
-sudo exrex "((W|w)elcome@)(1|12|123|1234|12345|123456|1234567|12345678|123456789)" >> /opt/custom-passwords.txt
 
 sudo exrex "((P|p)assword)(1|2|3|4|5|6|7|8|9|0)" >> /opt/custom-passwords.txt
 sudo exrex "((P|p)@ssword)(1|2|3|4|5|6|7|8|9|0)" >> /opt/custom-passwords.txt
