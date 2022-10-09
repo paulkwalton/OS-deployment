@@ -119,11 +119,15 @@ sudo exrex "((A|a)tos|(W|w)ipro|(I|i)nfosys|(D|d)xc|(T|t)cs|(C|c)apgemini)(1|2|3
 
 sudo exrex "((P|p)assword)(1|2|3|4|5|6|7|8|9|0)" >> /opt/custom-passwords.txt
 sudo exrex "((P|p)@ssword)(1|2|3|4|5|6|7|8|9|0)" >> /opt/custom-passwords.txt
+udo exrex "((P|p)assword)(1|12|123|1234|12345|123456|1234567|12345678|123456789|1234567890)" >> /opt/custom-passwords.txt
+sudo exrex "((P|p)@ssword)(1|12|123|1234|12345|123456|1234567|12345678|123456789|1234567890)" >> /opt/custom-passwords.txt
 sudo exrex "((P|p)assword)(01|02|03|04|05|06|07|08|09|00)" >> /opt/custom-passwords.txt
 sudo exrex "((P|p)@ssword)(01|02|03|04|05|06|07|08|09|00)" >> /opt/custom-passwords.txt
 
 sudo exrex "((P|p)assw0rd)(1|2|3|4|5|6|7|8|9|0)" >> /opt/custom-passwords.txt
 sudo exrex "((P|p)@ssw0rd)(1|2|3|4|5|6|7|8|9|0)" >> /opt/custom-passwords.txt
+sudo exrex "((P|p)assw0rd)(1|12|123|1234|12345|123456|1234567|12345678|123456789|1234567890)" >> /opt/custom-passwords.txt
+sudo exrex "((P|p)@ssw0rd)(1|12|123|1234|12345|123456|1234567|12345678|123456789|1234567890)" >> /opt/custom-passwords.txt
 sudo exrex "((P|p)assw0rd)(01|02|03|04|05|06|07|08|09|00)" >> /opt/custom-passwords.txt
 sudo exrex "((P|p)@ssw0rd)(01|02|03|04|05|06|07|08|09|00)" >> /opt/custom-passwords.txt
 
