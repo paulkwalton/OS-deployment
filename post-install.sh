@@ -106,6 +106,8 @@ sudo exrex "((W|w)inter|(S|s)ummer|(F|f)all|(A|a)utumn|(S|s)pring)(16|17|18|19|2
 sudo exrex "((W|w)inter|(S|s)ummer|(F|f)all|(A|a)utumn|(S|s)pring)(@1|@12|@123|@1234|@12345|@123456|@1234567)" >> /opt/custom-passwords.txt
 sudo exrex "((W|w)inter|(S|s)ummer|(F|f)all|(A|a)utumn|(S|s)pring)(1|2|3|4|5|6|7|8|9|0)" >> /opt/custom-passwords.txt
 
+sudo exrex "(1|12|123|1234|12345|123456|1234567|12345678|123456789|1234567890)" >> /opt/custom-passwords.txt
+
 sudo exrex "((M|m)onday|(T|t)uesday|(W|w)ednesday|(T|t)hursday|(F|f)riday)20(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
 sudo exrex "((M|m)onday|(T|t)uesday|(W|w)ednesday|(T|t)hursday|(F|f)riday)(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
 sudo exrex "((M|m)onday|(T|t)uesday|(W|w)ednesday|(T|t)hursday|(F|f)riday)(@1|@12|@123|@1234|@12345|@123456|@1234567)" >> /opt/custom-passwords.txt
@@ -157,7 +159,7 @@ sudo exrex "((A|a)tos|(W|w)ipro|(I|i)nfosys|(D|d)xc|(T|t)cs|(C|c)apgemini)(01|02
 
 sudo exrex "((P|p)assword)(1|2|3|4|5|6|7|8|9|0)" >> /opt/custom-passwords.txt
 sudo exrex "((P|p)@ssword)(1|2|3|4|5|6|7|8|9|0)" >> /opt/custom-passwords.txt
-udo exrex "((P|p)assword)(1|12|123|1234|12345|123456|1234567|12345678|123456789|1234567890)" >> /opt/custom-passwords.txt
+sudo exrex "((P|p)assword)(1|12|123|1234|12345|123456|1234567|12345678|123456789|1234567890)" >> /opt/custom-passwords.txt
 sudo exrex "((P|p)@ssword)(1|12|123|1234|12345|123456|1234567|12345678|123456789|1234567890)" >> /opt/custom-passwords.txt
 sudo exrex "((P|p)assword)(01|02|03|04|05|06|07|08|09|00)" >> /opt/custom-passwords.txt
 sudo exrex "((P|p)@ssword)(01|02|03|04|05|06|07|08|09|00)" >> /opt/custom-passwords.txt
