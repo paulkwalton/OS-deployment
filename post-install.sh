@@ -191,7 +191,6 @@ sudo echo '!'Passw0rd12345678@ >> /opt/custom-passwords.txt
 sudo echo '!'Passw0rd123456789@ >> /opt/custom-passwords.txt
 sudo echo '!'Passw0rd1234567890@ >> /opt/custom-passwords.txt
 
-
 sudo exrex "((J|j)anuary|(F|f)ebruary|(M|m)arch|(A|a)pril|(M|m)ay|(J|j)une|(J|j)uly|(A|a)ugust|(S|s)eptember|(O|o)ctober|(N|n)ovember|(D|d)ecember)20(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
 sudo exrex "((J|j)anuary|(F|f)ebruary|(M|m)arch|(A|a)pril|(M|m)ay|(J|j)une|(J|j)uly|(A|a)ugust|(S|s)eptember|(O|o)ctober|(N|n)ovember|(D|d)ecember)(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
 sudo exrex "((J|j)anuary|(F|f)ebruary|(M|m)arch|(A|a)pril|(M|m)ay|(J|j)une|(J|j)uly|(A|a)ugust|(S|s)eptember|(O|o)ctober|(N|n)ovember|(D|d)ecember)@20(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
