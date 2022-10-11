@@ -77,6 +77,8 @@ Write-Output "Download Express VPN"
 wget https://www.expressvpn.works/clients/windows/expressvpn_windows_10.30.0.0_release.exe -OutFile c:\tools\expressvpn_windows_10.30.0.0_release.exe
 Write-Output "Download Go Phish"
 https://github.com/gophish/gophish/releases/download/v0.12.1/gophish-v0.12.1-windows-64bit.zip -OutFile c:\tools\gophish-v0.12.1-windows-64bit.zip
+Write-Output "Download Net Reactor"
+https://www.eziriz.com/download.php?download=dotnet_reactor_setup_6_9_0_0.exe -OutFile c:\tools\dotnet_reactor_setup_6_9_0_0.exe
 Write-Output "Download Ping Castle"
 wget https://github.com/vletoux/pingcastle/releases/download/2.11.0.1/PingCastle_2.11.0.1.zip -OutFile c:\tools\PingCastle_2.11.0.1.zip
 Write-Output "Download PEStudio"
