@@ -215,4 +215,6 @@ echo "[i] Configuring xrdp to listen to port 3390 (but not starting the service)
 sed -i 's/port=3389/port=3390/g' /etc/xrdp/xrdp.ini
 sudo systemctl enable xrdp --now
 touch /opt/script-completed-pls-del-me.txt
+sudo a2enmod rewrite
+sudo a2enmod proxy proxy_http
 sudo shutdown -r now
