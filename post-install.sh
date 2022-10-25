@@ -27,10 +27,14 @@ sudo git clone https://github.com/r3motecontrol/Ghostpack-CompiledBinaries.git /
 sudo git clone https://gchq.github.io/CyberChef/ /opt/gchq-cyberchef
 sudo git clone https://github.com/ropnop/kerbrute /opt/adtools/kerbrute
 sudo git clone https://github.com/sc0tfree/updog.git /opt/filehosting
-sudo git clone https://github.com/Flangvik/SharpCollection.git /opt/sharpcollection/
-sudo git clone https://github.com/google/tsunami-security-scanner.git /opt/google-tsunami/
+sudo git clone https://github.com/Flangvik/SharpCollection.git /opt/sharpcollection
+sudo git clone https://github.com/google/tsunami-security-scanner.git /opt/google-tsunami
 sudo git clone https://github.com/phra/PEzor.git /opt/PEzor
 sudo git clone https://github.com/FortyNorthSecurity/RandomScripts.git /opt/shellcode-formatter
+sudo git clone https://github.com/hashcat/kwprocessor.git /opt/kwprocessor
+cd /opt/kwprocessor/
+sudo make
+./kwp -z basechars/full.base keymaps/en-us.keymap routes/2-to-16-max-3-direction-changes.route > /opt/keyboard-walk-passwords.txt
 sudo mkdir -p /adtools/sharphound
 sudo wget -O /opt/adtools/sharphound/sharphound.ps1 https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/SharpHound.ps1
 sudo wget -O /opt/adtools/sharphound.exe https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/SharpHound.exe
