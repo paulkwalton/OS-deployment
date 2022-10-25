@@ -196,12 +196,20 @@ sudo echo '!'Passw0rd12345678@ >> /opt/custom-passwords.txt
 sudo echo '!'Passw0rd123456789@ >> /opt/custom-passwords.txt
 sudo echo '!'Passw0rd1234567890@ >> /opt/custom-passwords.txt
 
+sudo exrex "((A|a)rsenal|(L|l)iverpool|(C|c)helsea|(E|e)verton|(A|a)stonvilla|(W|w)atford|(B|b)urnley|(M|m)anutd|(M|m)anchesterunited|(L|l)eedsunited|(M|m)anchestercity|(B|b)rentford)20(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
+sudo exrex "((J|j)anuary|(F|f)ebruary|(M|m)arch|(A|a)pril|(M|m)ay|(J|j)une|(J|j)uly|(A|a)ugust|(S|s)eptember|(O|o)ctober|(N|n)ovember|(D|d)ecember)(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
+sudo exrex "((J|j)anuary|(F|f)ebruary|(M|m)arch|(A|a)pril|(M|m)ay|(J|j)une|(J|j)uly|(A|a)ugust|(S|s)eptember|(O|o)ctober|(N|n)ovember|(D|d)ecember)@20(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
+sudo exrex "((J|j)anuary|(F|f)ebruary|(M|m)arch|(A|a)pril|(M|m)ay|(J|j)une|(J|j)uly|(A|a)ugust|(S|s)eptember|(O|o)ctober|(N|n)ovember|(D|d)ecember)(@16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
+sudo exrex "((J|j)anuary|(F|f)ebruary|(M|m)arch|(A|a)pril|(M|m)ay|(J|j)une|(J|j)uly|(A|a)ugust|(S|s)eptember|(O|o)ctober|(N|n)ovember|(D|d)ecember)(1|2|3|4|5|6|7)|8|9|0" >> /opt/custom-passwords.txt
+sudo exrex "((J|j)anuary|(F|f)ebruary|(M|m)arch|(A|a)pril|(M|m)ay|(J|j)une|(J|j)uly|(A|a)ugust|(S|s)eptember|(O|o)ctober|(N|n)ovember|(D|d)ecember)(12|123|1234|12345|123456|1234567|12345678)|123456789|1234567890" >> /opt/custom-passwords.txt
+
 sudo exrex "((J|j)anuary|(F|f)ebruary|(M|m)arch|(A|a)pril|(M|m)ay|(J|j)une|(J|j)uly|(A|a)ugust|(S|s)eptember|(O|o)ctober|(N|n)ovember|(D|d)ecember)20(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
 sudo exrex "((J|j)anuary|(F|f)ebruary|(M|m)arch|(A|a)pril|(M|m)ay|(J|j)une|(J|j)uly|(A|a)ugust|(S|s)eptember|(O|o)ctober|(N|n)ovember|(D|d)ecember)(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
 sudo exrex "((J|j)anuary|(F|f)ebruary|(M|m)arch|(A|a)pril|(M|m)ay|(J|j)une|(J|j)uly|(A|a)ugust|(S|s)eptember|(O|o)ctober|(N|n)ovember|(D|d)ecember)@20(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
 sudo exrex "((J|j)anuary|(F|f)ebruary|(M|m)arch|(A|a)pril|(M|m)ay|(J|j)une|(J|j)uly|(A|a)ugust|(S|s)eptember|(O|o)ctober|(N|n)ovember|(D|d)ecember)(@16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
 sudo exrex "((J|j)anuary|(F|f)ebruary|(M|m)arch|(A|a)pril|(M|m)ay|(J|j)une|(J|j)uly|(A|a)ugust|(S|s)eptember|(O|o)ctober|(N|n)ovember|(D|d)ecember)(1|2|3|4|5|6|7)|8|9|0" >> /opt/custom-passwords.txt
 sudo exrex "((J|j)anuary|(F|f)ebruary|(M|m)arch|(A|a)pril|(M|m)ay|(J|j)une|(J|j)uly|(A|a)ugust|(S|s)eptember|(O|o)ctober|(N|n)ovember|(D|d)ecember)(12|123|1234|12345|123456|1234567|12345678)|123456789|1234567890" >> /opt/custom-passwords.txt
+
 dpkg --add-architecture i386 && apt-get update -y && apt-get install wine32:i386 -y
 sudo gem install evil-winrm
 sudo apt-get update -y
