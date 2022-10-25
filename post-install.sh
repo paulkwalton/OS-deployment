@@ -176,6 +176,7 @@ sudo exrex "((P|p)assw0rd)(1|12|123|1234|12345|123456|1234567|12345678|123456789
 sudo exrex "((P|p)@ssw0rd)(1|12|123|1234|12345|123456|1234567|12345678|123456789|1234567890)" >> /opt/custom-passwords.txt
 sudo exrex "((P|p)assw0rd)(01|02|03|04|05|06|07|08|09|00)" >> /opt/custom-passwords.txt
 sudo exrex "((P|p)@ssw0rd)(01|02|03|04|05|06|07|08|09|00)" >> /opt/custom-passwords.txt
+
 sudo echo '!'Passw0rd1@ >> /opt/custom-passwords.txt
 sudo echo '!'Passw0rd2@ >> /opt/custom-passwords.txt
 sudo echo '!'Passw0rd3@ >> /opt/custom-passwords.txt
@@ -195,12 +196,20 @@ sudo echo '!'Passw0rd1234567@ >> /opt/custom-passwords.txt
 sudo echo '!'Passw0rd12345678@ >> /opt/custom-passwords.txt
 sudo echo '!'Passw0rd123456789@ >> /opt/custom-passwords.txt
 sudo echo '!'Passw0rd1234567890@ >> /opt/custom-passwords.txt
+
 sudo exrex "((A|a)rsenal|(L|l)iverpool|(C|c)helsea|(E|e)verton|(A|a)stonvilla|(W|w)atford|(B|b)urnley|(M|m)anutd|(M|m)anchesterunited|(L|l)eedsunited|(M|m)anchestercity|(B|b)rentford)20(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
 sudo exrex "((A|a)rsenal|(L|l)iverpool|(C|c)helsea|(E|e)verton|(A|a)stonvilla|(W|w)atford|(B|b)urnley|(M|m)anutd|(M|m)anchesterunited|(L|l)eedsunited|(M|m)anchestercity|(B|b)rentford)(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
 sudo exrex "((A|a)rsenal|(L|l)iverpool|(C|c)helsea|(E|e)verton|(A|a)stonvilla|(W|w)atford|(B|b)urnley|(M|m)anutd|(M|m)anchesterunited|(L|l)eedsunited|(M|m)anchestercity|(B|b)rentford)@20(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
 sudo exrex "((A|a)rsenal|(L|l)iverpool|(C|c)helsea|(E|e)verton|(A|a)stonvilla|(W|w)atford|(B|b)urnley|(M|m)anutd|(M|m)anchesterunited|(L|l)eedsunited|(M|m)anchestercity|(B|b)rentford)(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
 sudo exrex "((A|a)rsenal|(L|l)iverpool|(C|c)helsea|(E|e)verton|(A|a)stonvilla|(W|w)atford|(B|b)urnley|(M|m)anutd|(M|m)anchesterunited|(L|l)eedsunited|(M|m)anchestercity|(B|b)rentford)(1|2|3|4|5|6|7)|8|9|0" >> /opt/custom-passwords.txt
 sudo exrex "((A|a)rsenal|(L|l)iverpool|(C|c)helsea|(E|e)verton|(A|a)stonvilla|(W|w)atford|(B|b)urnley|(M|m)anutd|(M|m)anchesterunited|(L|l)eedsunited|(M|m)anchestercity|(B|b)rentford)(12|123|1234|12345|123456|1234567|12345678)|123456789|1234567890" >> /opt/custom-passwords.txt
+
+sudo exrex "((C|c)hristmas|(R|r)amadan|(H|h)alloween|(N|n)ewyear|(T|h)hanksgiving|(D|d)iwali)(2016|2017|2018|2019|2020|2021|2022)" >> /opt/custom-passwords.txt
+sudo exrex "((C|c)hristmas|(R|r)amadan|(H|h)alloween|(N|n)ewyear|(T|h)hanksgiving|(D|d)iwali)(@2016|@2017|@2018|@2019|@2020|@2021|@2022)" >> /opt/custom-passwords.txt
+sudo exrex "((C|c)hristmas|(R|r)amadan|(H|h)alloween|(N|n)ewyear|(T|h)hanksgiving|(D|d)iwali)(1|12|123|1234|12345|123456|1234567|12345678|123456789)" >> /opt/custom-passwords.txt
+sudo exrex "((C|c)hristmas|(R|r)amadan|(H|h)alloween|(N|n)ewyear|(T|h)hanksgiving|(D|d)iwali)(@1|@12|@123|@1234|@12345|@123456|@1234567|@12345678|@123456789)" >> /opt/custom-passwords.txt
+sudo exrex "((C|c)hristmas|(R|r)amadan|(H|h)alloween|(N|n)ewyear|(T|h)hanksgiving|(D|d)iwali)(@1|@2|@3|@4|@5|@6|@7|@8|@9)" >> /opt/custom-passwords.txt
+sudo exrex "((C|c)hristmas|(R|r)amadan|(H|h)alloween|(N|n)ewyear|(T|h)hanksgiving|(D|d)iwali)(01|02|03|04|05|06|07|08|09)" >> /opt/custom-passwords.txt
 
 dpkg --add-architecture i386 && apt-get update -y && apt-get install wine32:i386 -y
 sudo gem install evil-winrm
