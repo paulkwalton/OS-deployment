@@ -197,6 +197,26 @@ sudo echo '!'Passw0rd12345678@ >> /opt/custom-passwords.txt
 sudo echo '!'Passw0rd123456789@ >> /opt/custom-passwords.txt
 sudo echo '!'Passw0rd1234567890@ >> /opt/custom-passwords.txt
 
+sudo echo '!'Passw0rd1'!' >> /opt/custom-passwords.txt
+sudo echo '!'Passw0rd2'!' >> /opt/custom-passwords.txt
+sudo echo '!'Passw0rd3'!' >> /opt/custom-passwords.txt
+sudo echo '!'Passw0rd4'!' >> /opt/custom-passwords.txt
+sudo echo '!'Passw0rd5'!' >> /opt/custom-passwords.txt
+sudo echo '!'Passw0rd6'!' >> /opt/custom-passwords.txt
+sudo echo '!'Passw0rd7'!' >> /opt/custom-passwords.txt
+sudo echo '!'Passw0rd8'!' >> /opt/custom-passwords.txt
+sudo echo '!'Passw0rd9'!' >> /opt/custom-passwords.txt
+sudo echo '!'Passw0rd0'!' >> /opt/custom-passwords.txt
+sudo echo '!'Passw0rd12'!' >> /opt/custom-passwords.txt
+sudo echo '!'Passw0rd123'!' >> /opt/custom-passwords.txt
+sudo echo '!'Passw0rd1234'!' >> /opt/custom-passwords.txt
+sudo echo '!'Passw0rd12345'!' >> /opt/custom-passwords.txt
+sudo echo '!'Passw0rd123456'!' >> /opt/custom-passwords.txt
+sudo echo '!'Passw0rd1234567'!' >> /opt/custom-passwords.txt
+sudo echo '!'Passw0rd12345678'!' >> /opt/custom-passwords.txt
+sudo echo '!'Passw0rd123456789'!' >> /opt/custom-passwords.txt
+sudo echo '!'Passw0rd1234567890'!' >> /opt/custom-passwords.txt
+
 sudo exrex "((A|a)rsenal|(L|l)iverpool|(C|c)helsea|(E|e)verton|(A|a)stonvilla|(W|w)atford|(B|b)urnley|(M|m)anutd|(M|m)anchesterunited|(L|l)eedsunited|(M|m)anchestercity|(B|b)rentford)20(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
 sudo exrex "((A|a)rsenal|(L|l)iverpool|(C|c)helsea|(E|e)verton|(A|a)stonvilla|(W|w)atford|(B|b)urnley|(M|m)anutd|(M|m)anchesterunited|(L|l)eedsunited|(M|m)anchestercity|(B|b)rentford)(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
 sudo exrex "((A|a)rsenal|(L|l)iverpool|(C|c)helsea|(E|e)verton|(A|a)stonvilla|(W|w)atford|(B|b)urnley|(M|m)anutd|(M|m)anchesterunited|(L|l)eedsunited|(M|m)anchestercity|(B|b)rentford)@20(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
