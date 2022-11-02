@@ -107,6 +107,8 @@ sudo apt install psql -y
 sudo apt install powershell-empire -y
 sudo pip install mitm6
 sudo pip install exrex
+apt install golang-go -y
+go mod vendor
 
 sudo exrex "((W|w)inter|(S|s)ummer|(F|f)all|(A|a)utumn|(S|s)pring)20(16|17|18|19|20|21|22)" > /opt/custom-passwords.txt
 sudo exrex "((W|w)inter|(S|s)ummer|(F|f)all|(A|a)utumn|(S|s)pring)(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
