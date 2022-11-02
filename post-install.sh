@@ -31,6 +31,7 @@ sudo git clone https://github.com/Flangvik/SharpCollection.git /opt/sharpcollect
 sudo git clone https://github.com/phra/PEzor.git /opt/PEzor
 sudo git clone https://github.com/FortyNorthSecurity/RandomScripts.git /opt/shellcode-formatter
 sudo git clone https://github.com/hashcat/kwprocessor.git /opt/kwprocessor
+sudo git clone https://github.com/jpillora/chisel.git /opt/chisel
 cd /opt/kwprocessor/
 sudo make
 ./kwp -z basechars/full.base keymaps/en-us.keymap routes/2-to-16-max-3-direction-changes.route > /opt/keyboard-walk-passwords.txt
