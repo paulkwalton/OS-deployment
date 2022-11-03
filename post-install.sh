@@ -31,7 +31,7 @@ sudo git clone https://github.com/Flangvik/SharpCollection.git /opt/sharpcollect
 sudo git clone https://github.com/phra/PEzor.git /opt/PEzor
 sudo git clone https://github.com/FortyNorthSecurity/RandomScripts.git /opt/shellcode-formatter
 sudo git clone https://github.com/hashcat/kwprocessor.git /opt/kwprocessor
-sudo git clone https://github.com/jpillora/chisel.git /opt/chisel
+
 cd /opt/kwprocessor/
 sudo make
 ./kwp -z basechars/full.base keymaps/en-us.keymap routes/2-to-16-max-3-direction-changes.route > /opt/keyboard-walk-passwords.txt
@@ -47,6 +47,7 @@ sudo wget -O /opt/c2/sliver/sliver-client_linux https://github.com/BishopFox/sli
 sudo wget -O /opt/adtools/windapsearch https://github.com/ropnop/go-windapsearch/releases/download/v0.3.0/windapsearch-linux-amd64
 sudo wget -O /opt/expressvpn https://www.expressvpn.works/clients/linux/expressvpn_3.30.0.2-1_amd64.deb
 sudo wget -O /opt/starkiller https://github.com/BC-SECURITY/Starkiller/releases/download/v1.10.0/starkiller-1.10.0.AppImage
+sudo wget -O /opt/chisel https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel_1.7.7_linux_amd64.gz
 
 sudo wget -O /opt/ruler-linux64 https://github.com/sensepost/ruler/releases/download/2.4.1/ruler-linux64
 sudo mkdir -p /opt/gophish/
