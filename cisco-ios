@@ -44,3 +44,6 @@ transport output none
 no exec
 exec-timeout 0 1
 no password
+! Disable IP Source routing
+no ip source-route
+
