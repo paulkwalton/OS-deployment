@@ -8,3 +8,14 @@ no ip bootp server
 ip dhcp bootp ignore
 ! DHCP services can be disabled if DHCP relay services are not required. Issue the no service dhcp command in global configuration mode.
 no service dhcp
+! Issue the no mop enabled command in interface configuration mode in order to disable the Maintenance Operation Protocol (MOP) service.
+no mop enabled
+! Issue the no ip domain-lookup global configuration command in order to disable Domain Name System (DNS) resolution services.
+no ip domain-lookup
+! Issue the no service pad command in global configuration mode in order to disable Packet Assembler/Disassembler (PAD) service, which is used for X.25 networks.
+no ip http server
+! Unless Cisco IOS devices retrieve configurations from the network during startup, the no service config global configuration command must be used. This prevents the Cisco IOS device from an attempt to locate a configuration file on the network with TFTP.
+no service config
+! Cisco Discovery Protocol (CDP) is a network protocol that is used in order to discover other CDP enabled devices for neighbor adjacency and network topology. CDP can be used by Network Management Systems (NMS) or during troubleshooting. CDP must be disabled on all interfaces that are connected to untrusted networks. This is accomplished with the no cdp enable interface command. Alternatively, CDP can be disabled globally with the no cdp run global configuration command. Note that CDP can be used by a malicious user for reconnaissance and network mapping.
+no cdp enable
+
