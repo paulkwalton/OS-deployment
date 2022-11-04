@@ -1,1 +1,10 @@
-
+! Enable Secret for MD5
+! In Cisco IOS Software Release 12.3(14)T and later, the No Service Password-Recovery feature does not allow anyone with console access to insecurely access the device configuration and clear the password. It also does not allow malicious users to change the configuration register value and access NVRAM.
+no service password-recovery
+! Disable Unused Services
+! Issue the no ip finger global configuration command in order to disable Finger service. Cisco IOS software releases later than 12.1(5) and 12.1(5)T disable this service by default.
+no ip finger
+no ip bootp server
+ip dhcp bootp ignore
+! DHCP services can be disabled if DHCP relay services are not required. Issue the no service dhcp command in global configuration mode.
+no service dhcp
