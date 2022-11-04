@@ -2,7 +2,7 @@
 
 Kali-Linux
 
-This is a Kali post deployment script to compliment the Kali Linux Official VMware image. It will install useful applications, harden the image and enable SSH/RDP remote acc
+This is a Kali post deployment script to compliment the Kali Linux Official VMware image. It will install useful applications, harden the image and enable SSH/RDP remote access.
 
 
 1. Download the Kali 64 Bit 7zip https://www.kali.org/get-kali/#kali-virtual-machines
