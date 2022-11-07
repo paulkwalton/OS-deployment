@@ -74,6 +74,8 @@ git clone https://github.com/danielmiessler/SecLists.git c:\tools\seclists
 
 Write-Output "Download Express VPN"
 wget https://www.expressvpn.works/clients/windows/expressvpn_windows_10.30.0.0_release.exe -OutFile c:\tools\expressvpn_windows_10.30.0.0_release.exe
+Write-Output "Download Starkiller"
+wget https://github.com/BC-SECURITY/Starkiller/releases/download/v1.10.0/starkiller.Setup.1.10.0.exe -OutFile c:\tools\starkiller.Setup.1.10.0.exe
 Write-Output "Download Go Phish"
 https://github.com/gophish/gophish/releases/download/v0.12.1/gophish-v0.12.1-windows-64bit.zip -OutFile c:\tools\gophish-v0.12.1-windows-64bit.zip
 Write-Output "Download Net Reactor"
