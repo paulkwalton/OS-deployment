@@ -31,6 +31,7 @@ sudo git clone https://github.com/Flangvik/SharpCollection.git /opt/sharpcollect
 sudo git clone https://github.com/phra/PEzor.git /opt/PEzor
 sudo git clone https://github.com/FortyNorthSecurity/RandomScripts.git /opt/shellcode-formatter
 sudo git clone https://github.com/hashcat/kwprocessor.git /opt/kwprocessor
+sudo git clone https://github.com/BC-SECURITY/Empire.git /op/empire
 
 cd /opt/kwprocessor/
 sudo make
@@ -105,7 +106,6 @@ sudo apt install yersinia -y
 sudo apt install spiderfoot -y
 sudo apt install amass-common -y
 sudo apt install psql -y
-sudo apt install powershell-empire -y
 sudo pip install mitm6
 sudo pip install exrex
 apt install golang-go -y
