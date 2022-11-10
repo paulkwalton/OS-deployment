@@ -1,47 +1,31 @@
-! Enter Hostname below
+
 hostname switch01
-! Enable MD5 Encryption (Better than Cisco 7)
+aaa new-model
 enable Secret
-! Set Password Minimum Length Of 16 
 security passwords min-length 16
-! In Cisco IOS Software Release 12.3(14)T and later, the No Service Password-Recovery feature does not allow anyone with console access to insecurely access the device configuration and clear the password. It also does not allow malicious users to change the configuration register value and access NVRAM.
 no service password-recovery
-! Disable Unused Services
-! Issue the no ip finger global configuration command in order to disable Finger service. Cisco IOS software releases later than 12.1(5) and 12.1(5)T disable this service by default.
 no ip finger
 no ip bootp server
 ip dhcp bootp ignore
-! DHCP services can be disabled if DHCP relay services are not required. Issue the no service dhcp command in global configuration mode.
 no service dhcp
-! Issue the no mop enabled command in interface configuration mode in order to disable the Maintenance Operation Protocol (MOP) service.
 no mop enabled
-! Issue the no ip domain-lookup global configuration command in order to disable Domain Name System (DNS) resolution services.
 no ip domain-lookup
-! Remove HTTP Services, CRITICAL to reduce attack surface.
 no ip http server
-! Unless Cisco IOS devices retrieve configurations from the network during startup, the no service config global configuration command must be used. This prevents the Cisco IOS device from an attempt to locate a configuration file on the network with TFTP.
 no service config
-! Cisco Discovery Protocol (CDP) is a network protocol that is used in order to discover other CDP enabled devices for neighbor adjacency and network topology. CDP can be used by Network Management Systems (NMS) or during troubleshooting. CDP must be disabled on all interfaces that are connected to untrusted networks. This is accomplished with the no cdp enable interface command. Alternatively, CDP can be disabled globally with the no cdp run global configuration command. Note that CDP can be used by a malicious user for reconnaissance and network mapping.
 no cdp run
-! Link Layer Discovery Protocol (LLDP) is an IEEE protocol that is defined in 802.1AB. LLDP is similar to CDP. However, this protocol allows interoperability between other devices that do not support CDP. LLDP must be treated in the same manner as CDP and disabled on all interfaces that connect to untrusted networks. In order to accomplish this, issue the no lldp transmit and no lldp receive interface configuration commands. Issue the no lldp run global configuration command in order to disable LLDP globally. LLDP can also be used by a malicious user for reconnaissance and network mapping.
 no lldp run
-! In order to set the interval that the EXEC command interpreter waits for user input before it terminates a session, issue the exec-timeout line configuration command. The exec-timeout command must be used in order to logout sessions on vty or tty lines that are left idle. By default, sessions are disconnected after ten minutes of inactivity.
 line con 0
 exec-timeout 5
 line vty 0 4
 exec-timeout 5
 exit
-! The service tcp-keepalives-in and service tcp-keepalives-out global configuration commands enable a device to send TCP keepalives for TCP sessions. This configuration must be used in order to enable TCP keepalives on inbound connections to the device and outbound connections from the device. This ensures that the device on the remote end of the connection is still accessible and that half-open or orphaned connections are removed from the local Cisco IOS device.
 service tcp-keepalives-in
 service tcp-keepalives-out
-! Disable the Smart Install client functionality after the zero-touch installation is complete or use the no vstack command.
 no vstack
-! Configure SSH Version 2
 crypto key generate rsa modulus 2048
 ip ssh time-out 60  
 ip ssh authentication-retries 3  
 ip ssh version 2
-! Disable Aux Port
 line aux 0
 transport input none
 transport output none
@@ -49,9 +33,7 @@ no exec
 exec-timeout 0 1
 no password
 exit
-! Disable IP Source routing
 no ip source-route
-! Added in Cisco IOS Software Release 12.3(8)T, the Resilient Configuration feature makes it possible to securely store a copy of the Cisco IOS software image and device configuration that is currently used by a Cisco IOS device. When this feature is enabled, it is not possible to alter or remove these backup files. You are advised to enable this feature in order to prevent both inadvertent and malicious attempts to delete these files.
 secure boot-image
 secure boot-config
 
