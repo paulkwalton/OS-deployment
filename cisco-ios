@@ -1,5 +1,5 @@
 ! Enter Hostname below
-hostname 
+hostname switch01
 ! Enable Secret for MD5
 ! In Cisco IOS Software Release 12.3(14)T and later, the No Service Password-Recovery feature does not allow anyone with console access to insecurely access the device configuration and clear the password. It also does not allow malicious users to change the configuration register value and access NVRAM.
 no service password-recovery
