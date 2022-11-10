@@ -27,6 +27,7 @@ line con 0
 exec-timeout 5
 line vty 0 4
 exec-timeout 5
+exit
 ! The service tcp-keepalives-in and service tcp-keepalives-out global configuration commands enable a device to send TCP keepalives for TCP sessions. This configuration must be used in order to enable TCP keepalives on inbound connections to the device and outbound connections from the device. This ensures that the device on the remote end of the connection is still accessible and that half-open or orphaned connections are removed from the local Cisco IOS device.
 service tcp-keepalives-in
 service tcp-keepalives-out
@@ -44,6 +45,7 @@ transport output none
 no exec
 exec-timeout 0 1
 no password
+exit
 ! Disable IP Source routing
 no ip source-route
 ! Added in Cisco IOS Software Release 12.3(8)T, the Resilient Configuration feature makes it possible to securely store a copy of the Cisco IOS software image and device configuration that is currently used by a Cisco IOS device. When this feature is enabled, it is not possible to alter or remove these backup files. You are advised to enable this feature in order to prevent both inadvertent and malicious attempts to delete these files.
