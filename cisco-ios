@@ -4,6 +4,7 @@ ip domain-name test.local
 aaa new-model
 no service password-recovery
 service password-encryption 
+password encryption aes
 no ip finger
 no ip bootp server
 ip dhcp bootp ignore
