@@ -1,8 +1,6 @@
 
 hostname switch01
 aaa new-model
-enable Secret
-security passwords min-length 16
 no service password-recovery
 no ip finger
 no ip bootp server
@@ -11,13 +9,15 @@ no service dhcp
 no mop enabled
 no ip domain-lookup
 no ip http server
+no ip http secure-server
 no service config
 no cdp run
 no lldp run
 line con 0
 exec-timeout 5
-line vty 0 4
+line vty 0 15
 exec-timeout 5
+
 exit
 service tcp-keepalives-in
 service tcp-keepalives-out
