@@ -15,6 +15,7 @@ no ip http secure-server
 no service config
 no cdp run
 no lldp run
+no ip gratuitous-arps
 line con 0
 exec-timeout 5
 line vty 0 15
