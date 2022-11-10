@@ -3,8 +3,10 @@ hostname sw01
 ip domain-name test.local
 aaa new-model
 no service password-recovery
+!Enable Data at Rest Protection with AES-128 Algorithm https://www.ciscolive.com/c/dam/r/ciscolive/us/docs/2019/pdf/BRKSEC-1032.pdf
 service password-encryption 
 password encryption aes
+!Disable Unused Services https://www.ciscolive.com/c/dam/r/ciscolive/us/docs/2019/pdf/BRKSEC-1032.pdf
 no ip finger
 no ip bootp server
 ip dhcp bootp ignore
@@ -36,6 +38,14 @@ no exec
 exec-timeout 0 1
 no password
 exit
+!Protect routed interfaces from spoofing and probing https://www.ciscolive.com/c/dam/r/ciscolive/us/docs/2019/pdf/BRKSEC-1032.pdf
 no ip source-route
+no ip proxy arp
+no ip unreachable
+no ip redirects
+ip verify unicast source reachable-via rx
+no ipv6 unreachables
+no ipv6 redirects
+ipv6 verify unicast source reachable-via rx
 
 
