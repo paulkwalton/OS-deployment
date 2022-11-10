@@ -17,7 +17,7 @@ no service dhcp
 no mop enabled
 ! Issue the no ip domain-lookup global configuration command in order to disable Domain Name System (DNS) resolution services.
 no ip domain-lookup
-! Issue the no service pad command in global configuration mode in order to disable Packet Assembler/Disassembler (PAD) service, which is used for X.25 networks.
+! Remove HTTP Services, CRITICAL to reduce attack surface.
 no ip http server
 ! Unless Cisco IOS devices retrieve configurations from the network during startup, the no service config global configuration command must be used. This prevents the Cisco IOS device from an attempt to locate a configuration file on the network with TFTP.
 no service config
