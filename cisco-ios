@@ -1,6 +1,6 @@
 
-hostname <ENTER HOST NAME>
-ip domain-name <ENTER DOMAIN NAME>
+hostname sw01
+ip domain-name test.local
 aaa new-model
 no service password-recovery
 no ip finger
