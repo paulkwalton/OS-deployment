@@ -3,6 +3,7 @@ hostname sw01
 ip domain-name test.local
 aaa new-model
 no service password-recovery
+service password-encryption 
 no ip finger
 no ip bootp server
 ip dhcp bootp ignore
