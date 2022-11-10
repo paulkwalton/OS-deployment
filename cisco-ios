@@ -6,7 +6,6 @@ no ip finger
 no ip bootp server
 ip dhcp bootp ignore
 no service dhcp
-no mop enabled
 no ip domain-lookup
 no ip http server
 no ip http secure-server
