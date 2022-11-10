@@ -1,6 +1,9 @@
 ! Enter Hostname below
 hostname switch01
-! Enable Secret for MD5
+! Enable MD5 Encryption (Better than Cisco 7)
+enable Secret
+! Set Password Minimum Length Of 16 
+security passwords min-length 16
 ! In Cisco IOS Software Release 12.3(14)T and later, the No Service Password-Recovery feature does not allow anyone with console access to insecurely access the device configuration and clear the password. It also does not allow malicious users to change the configuration register value and access NVRAM.
 no service password-recovery
 ! Disable Unused Services
