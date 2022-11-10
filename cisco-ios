@@ -16,8 +16,8 @@ no lldp run
 line con 0
 exec-timeout 5
 line vty 0 15
+transport input ssh
 exec-timeout 5
-
 exit
 service tcp-keepalives-in
 service tcp-keepalives-out
