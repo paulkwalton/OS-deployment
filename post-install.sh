@@ -31,7 +31,7 @@ sudo git clone https://github.com/Flangvik/SharpCollection.git /opt/sharpcollect
 sudo git clone https://github.com/phra/PEzor.git /opt/PEzor
 sudo git clone https://github.com/FortyNorthSecurity/RandomScripts.git /opt/shellcode-formatter
 sudo git clone https://github.com/hashcat/kwprocessor.git /opt/kwprocessor
-sudo git clone https://github.com/BC-SECURITY/Empire.git /op/empire
+sudo git clone --recursive https://github.com/BC-SECURITY/Empire.git /opt/empire
 
 cd /opt/kwprocessor/
 sudo make
