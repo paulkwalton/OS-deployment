@@ -111,7 +111,30 @@ sudo pip install exrex
 apt install golang-go -y
 go mod vendor
 
-sudo exrex "((W|w)inter|(S|s)ummer|(F|f)all|(A|a)utumn|(S|s)pring)20(16|17|18|19|20|21|22)" > /opt/custom-passwords.txt
+echo "ENTER FULL COMPANY NAME FOR GENERATING POTENTIAL PASSWORD SPRAYS:>"
+read companyname
+echo $companyname"2022" > /opt/custom-passwords.txt
+echo $companyname"2021" >> /opt/custom-passwords.txt
+echo $companyname"2020" >> /opt/custom-passwords.txt
+echo $companyname"2019" >> /opt/custom-passwords.txt
+
+echo $companyname"@2022" >> /opt/custom-passwords.txt
+echo $companyname"@2021" >> /opt/custom-passwords.txt
+echo $companyname"@2020" >> /opt/custom-passwords.txt
+echo $companyname"@2019" >> /opt/custom-passwords.txt
+
+echo $companyname"2022!" >> /opt/custom-passwords.txt
+echo $companyname"2021!" >> /opt/custom-passwords.txt
+echo $companyname"2020!" >> /opt/custom-passwords.txt
+echo $companyname"2019!" >> /opt/custom-passwords.txt
+
+echo $companyname"01" >> /opt/custom-passwords.txt
+echo $companyname"@01" >> /opt/custom-passwords.txt
+echo $companyname"01!" >> /opt/custom-passwords.txt
+
+
+
+sudo exrex "((W|w)inter|(S|s)ummer|(F|f)all|(A|a)utumn|(S|s)pring)20(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
 sudo exrex "((W|w)inter|(S|s)ummer|(F|f)all|(A|a)utumn|(S|s)pring)(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
 sudo exrex "((W|w)inter|(S|s)ummer|(F|f)all|(A|a)utumn|(S|s)pring)(@1|@12|@123|@1234|@12345|@123456|@1234567)" >> /opt/custom-passwords.txt
 sudo exrex "((W|w)inter|(S|s)ummer|(F|f)all|(A|a)utumn|(S|s)pring)(1|2|3|4|5|6|7|8|9|0)" >> /opt/custom-passwords.txt
