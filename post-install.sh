@@ -312,10 +312,12 @@ apt-get install -y kali-desktop-xfce xorg xrdp
 echo "[i] Configuring xrdp to listen to port 3390 (but not starting the service)"
 sed -i 's/port=3389/port=3390/g' /etc/xrdp/xrdp.ini
 sudo systemctl enable xrdp --now
+# Write a file which confirms the build script has reached the end, and not fell over.
 touch /opt/script-completed-pls-del-me.txt
 sudo a2enmod rewrite
 sudo a2enmod proxy 
 sudo a2enmod proxy_http 
 sudo a2enmod proxy_balancer 
 sudo a2enmod lbmethod_byrequests
+# Restart Kali, and good to go.
 sudo shutdown -r now
