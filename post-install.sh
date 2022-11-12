@@ -111,8 +111,10 @@ sudo pip install exrex
 apt install golang-go -y
 go mod vendor
 
-echo "ENTER FULL COMPANY NAME FOR GENERATING POTENTIAL PASSWORD SPRAYS:>"
+echo "ENTER FULL COMPANY NAME FOR GENERATING PASSWORD SPRAYS:>"
 read companyname
+echo "ENTER SHORT COMPANY NAME FOR GENERATING PASSWORD SPRAYS:>"
+read shortcompanyname
 echo $companyname"2022" > /opt/custom-passwords.txt
 echo $companyname"2021" >> /opt/custom-passwords.txt
 echo $companyname"2020" >> /opt/custom-passwords.txt
@@ -131,6 +133,25 @@ echo $companyname"2019!" >> /opt/custom-passwords.txt
 echo $companyname"01" >> /opt/custom-passwords.txt
 echo $companyname"@01" >> /opt/custom-passwords.txt
 echo $companyname"01!" >> /opt/custom-passwords.txt
+
+echo $shortcompanyname"2022" >> /opt/custom-passwords.txt
+echo $shortcompanyname"2021" >> /opt/custom-passwords.txt
+echo $shortcompanyname"2020" >> /opt/custom-passwords.txt
+echo $shortcompanyname"2019" >> /opt/custom-passwords.txt
+
+echo $shortcompanyname"@2022" >> /opt/custom-passwords.txt
+echo $shortcompanyname"@2021" >> /opt/custom-passwords.txt
+echo $shortcompanyname"@2020" >> /opt/custom-passwords.txt
+echo $shortcompanyname"@2019" >> /opt/custom-passwords.txt
+
+echo $shortcompanyname"2022!" >> /opt/custom-passwords.txt
+echo $shortcompanyname"2021!" >> /opt/custom-passwords.txt
+echo $shortcompanyname"2020!" >> /opt/custom-passwords.txt
+echo $shortcompanyname"2019!" >> /opt/custom-passwords.txt
+
+echo $shortcompanyname"01" >> /opt/custom-passwords.txt
+echo $shortcompanyname"@01" >> /opt/custom-passwords.txt
+echo $shortcompanyname"01!" >> /opt/custom-passwords.txt
 
 
 
