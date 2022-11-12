@@ -1,9 +1,10 @@
+# Update Kali before installing any tools
 sudo apt-get update -y && sudo apt-get upgrade -y
 sudo apt full-upgrade -y
+# Check for rootkits inside the Kali Build
 sudo apt install rkhunter -y
 echo Check For Rootkits Using RKHunter
 sudo rkhunter -c -sk
-curl -sSL https://raw.githubusercontent.com/nettitude/PoshC2/dev/Install.sh | sudo bash -s -- -b dev
 sudo apt install leafpad -y
 sudo apt install default-jdk -y
 sudo apt install build-essential -y
@@ -11,12 +12,14 @@ sudo apt install windows-binaries -y
 sudo apt install openssh-server -y
 sudo systemctl enable ssh.service
 sudo systemctl start ssh.service
+# Download useful binaries
 sudo mkdir -p /opt/sysinternals/
 sudo wget -O /opt/sysinternals/sysinternals.zip https://download.sysinternals.com/files/SysinternalsSuite.zip 
 sudo mkdir -p /opt/privesc/linux
 sudo wget -O /opt/privesc/linux/linpeas.sh https://github.com/carlospolop/PEASS-ng/releases/download/20220814/linpeas.sh
 sudo mkdir -p /opt/privesc/windows
 sudo wget -O /opt/privesc/windows/linpeas.bat https://github.com/carlospolop/PEASS-ng/releases/download/20220814/winPEAS.bat
+# Start cloning repo's into /opt
 sudo git clone https://github.com/Ridter/cve-2020-0688.git /opt/exploits/cve-2020-0688
 sudo git clone https://github.com/paulkwalton/scripts.git /opt/scripts/
 sudo git clone https://github.com/rebootuser/LinEnum.git /opt/privesc/linux/linenum
@@ -33,6 +36,7 @@ sudo git clone https://github.com/FortyNorthSecurity/RandomScripts.git /opt/shel
 sudo git clone https://github.com/hashcat/kwprocessor.git /opt/kwprocessor
 sudo git clone --recursive https://github.com/BC-SECURITY/Empire.git /opt/empire
 
+# Install KWprocessor used for creating keyboard walk passwords
 cd /opt/kwprocessor/
 sudo make
 ./kwp -z basechars/full.base keymaps/en-us.keymap routes/2-to-16-max-3-direction-changes.route > /opt/keyboard-walk-passwords.txt
@@ -111,6 +115,8 @@ sudo pip install exrex
 apt install golang-go -y
 go mod vendor
 
+# This section generates a large list of realworld passwords for brute force and password spraying.
+
 echo "ENTER FULL COMPANY NAME FOR GENERATING PASSWORD SPRAYS:>"
 read companyname
 echo "ENTER SHORT COMPANY NAME FOR GENERATING PASSWORD SPRAYS:>"
@@ -152,7 +158,6 @@ echo $shortcompanyname"2019!" >> /opt/custom-passwords.txt
 echo $shortcompanyname"01" >> /opt/custom-passwords.txt
 echo $shortcompanyname"@01" >> /opt/custom-passwords.txt
 echo $shortcompanyname"01!" >> /opt/custom-passwords.txt
-
 
 
 sudo exrex "((W|w)inter|(S|s)ummer|(F|f)all|(A|a)utumn|(S|s)pring)20(16|17|18|19|20|21|22)" >> /opt/custom-passwords.txt
