@@ -2,7 +2,7 @@
 
 Cisco-IOS
 
-This script is built using Cisco IOS hardening guidelines from Cisco. This is simply copy/pasted into the switch on firs build, which will remove issues commonly detected in Nipper.
+This script is built using Cisco IOS hardening guidelines from Cisco. This is simply copy/pasted into the switch on first build, which will remove issues commonly detected in Nipper.
 
 Kali-Linux
 
