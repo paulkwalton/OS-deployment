@@ -7,6 +7,8 @@ aaa new-model
 no service password-recovery
 !Enable Data at Rest Protection with AES-128 Algorithm https://www.ciscolive.com/c/dam/r/ciscolive/us/docs/2019/pdf/BRKSEC-1032.pdf
 service password-encryption 
+!Enable strong, reversible 128-bit Advanced Encryption Standard (AES) password encryption, also
+known as type-6 encryption.
 password encryption aes
 !Disable Unused Services https://www.ciscolive.com/c/dam/r/ciscolive/us/docs/2019/pdf/BRKSEC-1032.pdf
 no ip finger
