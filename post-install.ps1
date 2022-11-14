@@ -72,7 +72,8 @@ git clone https://github.com/XenocodeRCE/neo-ConfuserEx.git c:\tools\neoconfuser
 git clone https://github.com/yck1509/ConfuserEx.git c:\tools\confuserex
 git clone https://github.com/danielmiessler/SecLists.git c:\tools\seclists
 
-
+Write-Output "Download Bloodhound"
+wget https://github.com/BloodHoundAD/BloodHound/releases/download/4.2.0/BloodHound-win32-arm64.zip -OutFile c:\tools\BloodHound-win32-arm64.zip
 Write-Output "Download Express VPN"
 wget https://www.expressvpn.works/clients/windows/expressvpn_windows_10.30.0.0_release.exe -OutFile c:\tools\expressvpn_windows_10.30.0.0_release.exe
 Write-Output "Download Starkiller"
