@@ -1,3 +1,5 @@
+!This script will harden a Cisco IOS device before building, and is the minimum which should be applied. Once a configuration is applied further hardened should be applied.
+
 
 !Configure the hostname. This will need to be changed before running the script.
 hostname sw01
