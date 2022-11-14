@@ -1,5 +1,7 @@
 
+!Configure the hostname. This will need to be changed before running the script.
 hostname sw01
+!Configure the DNS Domain Name. This will need to be changed before running the script.
 ip domain-name test.local
 aaa new-model
 no service password-recovery
