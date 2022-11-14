@@ -110,6 +110,7 @@ sudo apt install yersinia -y
 sudo apt install spiderfoot -y
 sudo apt install amass-common -y
 sudo apt install psql -y
+sudo apt install neo4j -y
 sudo pip install mitm6
 sudo pip install exrex
 apt install golang-go -y
