@@ -39,6 +39,7 @@ choco install golang -y
 choco install openoffice -y
 choco install keepassx -y
 choco install angryip -y
+choco install neo4j-community -y
 
 # Clone Tools From Github
 Write-Output "Download & Install Spiderfoot"
