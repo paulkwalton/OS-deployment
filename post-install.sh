@@ -35,6 +35,7 @@ sudo git clone https://github.com/phra/PEzor.git /opt/PEzor
 sudo git clone https://github.com/FortyNorthSecurity/RandomScripts.git /opt/shellcode-formatter
 sudo git clone https://github.com/hashcat/kwprocessor.git /opt/kwprocessor
 sudo git clone --recursive https://github.com/BC-SECURITY/Empire.git /opt/empire
+sudo git clone https://github.com/leoloobeek/LAPSToolkit.git /opt/LAPSToolkit
 
 # Install KWprocessor used for creating keyboard walk passwords
 cd /opt/kwprocessor/
