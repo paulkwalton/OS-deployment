@@ -20,6 +20,8 @@ sudo wget -O /opt/privesc/linux/linpeas.sh https://github.com/carlospolop/PEASS-
 sudo mkdir -p /opt/privesc/windows
 sudo wget -O /opt/privesc/windows/linpeas.bat https://github.com/carlospolop/PEASS-ng/releases/download/20220814/winPEAS.bat
 # Start cloning repo's into /opt
+sudo git clone https://github.com/BC-SECURITY/Empire-Bypasses.git /opt/Empire-Bypasses.git
+sudo git clone --recursive https://github.com/BC-SECURITY/Empire-Sponsors.git /opt/Empire-Sponsors.git
 sudo git clone https://github.com/Ridter/cve-2020-0688.git /opt/exploits/cve-2020-0688
 sudo git clone https://github.com/paulkwalton/scripts.git /opt/scripts/
 sudo git clone https://github.com/rebootuser/LinEnum.git /opt/privesc/linux/linenum
@@ -34,7 +36,6 @@ sudo git clone https://github.com/Flangvik/SharpCollection.git /opt/sharpcollect
 sudo git clone https://github.com/phra/PEzor.git /opt/PEzor
 sudo git clone https://github.com/FortyNorthSecurity/RandomScripts.git /opt/shellcode-formatter
 sudo git clone https://github.com/hashcat/kwprocessor.git /opt/kwprocessor
-sudo git clone --recursive https://github.com/BC-SECURITY/Empire.git /opt/empire
 sudo git clone https://github.com/leoloobeek/LAPSToolkit.git /opt/LAPSToolkit
 
 # Install KWprocessor used for creating keyboard walk passwords
