@@ -87,6 +87,7 @@ sudo apt install dirbuster -y
 sudo apt install dirb -y
 sudo apt install nano -y
 sudo apt install nikto -y
+sudo apt install sublist3r -y
 sudo apt install net-tools -y
 sudo apt install exploitdb -y
 sudo apt install novnc -y
