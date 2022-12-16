@@ -72,18 +72,13 @@ git clone https://github.com/danielmiessler/SecLists.git c:\tools\seclists
 git clone https://github.com/rasta-mouse/ThreatCheck.git c:\tools\threatcheck
 
 
-Write-Output "Download Bloodhound"
-wget https://github.com/BloodHoundAD/BloodHound/releases/download/4.2.0/BloodHound-win32-x64.zip -OutFile c:\tools\BloodHound-win32-x64.zip
+
 Write-Output "Download Express VPN"
 wget https://www.expressvpn.works/clients/windows/expressvpn_windows_10.30.0.0_release.exe -OutFile c:\tools\expressvpn_windows_10.30.0.0_release.exe
-Write-Output "Download Starkiller"
-wget https://github.com/BC-SECURITY/Starkiller/releases/download/v1.10.0/starkiller.Setup.1.10.0.exe -OutFile c:\tools\starkiller.Setup.1.10.0.exe
 Write-Output "Download Chisel"
 wget https://github.com/jpillora/chisel/releases/download/v1.7.7/chisel_1.7.7_windows_386.gz -OutFile c:\tools\chisel_1.7.7_windows_386.gz
 Write-Output "Download Go Phish"
 https://github.com/gophish/gophish/releases/download/v0.12.1/gophish-v0.12.1-windows-64bit.zip -OutFile c:\tools\gophish-v0.12.1-windows-64bit.zip
-Write-Output "Download Net Reactor"
-https://www.eziriz.com/download.php?download=dotnet_reactor_setup_6_9_0_0.exe -OutFile c:\tools\dotnet_reactor_setup_6_9_0_0.exe
 Write-Output "Download Ping Castle"
 wget https://github.com/vletoux/pingcastle/releases/download/2.11.0.1/PingCastle_2.11.0.1.zip -OutFile c:\tools\PingCastle_2.11.0.1.zip
 Write-Output "Download PEStudio"
