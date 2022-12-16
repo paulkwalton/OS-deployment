@@ -6,8 +6,6 @@ Get-WindowsUpdate
 Write-Output "Installing Windows Updates"
 Install-WindowsUpdate
 # Remove all the Windows Bloatware
-Write-Output "Install Windows Subsystem For Linux"
-wsl --install
 Write-Output "Remove Bloatware"
 Get-AppxPackage * | Remove-AppxPackage
 mkdir c:\tools
