@@ -5,6 +5,7 @@ sudo apt full-upgrade -y
 sudo apt install rkhunter -y
 echo Check For Rootkits Using RKHunter
 sudo rkhunter -c -sk
+sudo apt install -y kali-linux-default
 sudo apt install leafpad -y
 sudo apt install default-jdk -y
 sudo apt install build-essential -y
