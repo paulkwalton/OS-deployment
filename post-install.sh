@@ -39,6 +39,7 @@ sudo git clone https://github.com/FortyNorthSecurity/RandomScripts.git /opt/shel
 sudo git clone https://github.com/hashcat/kwprocessor.git /opt/kwprocessor
 sudo git clone https://github.com/leoloobeek/LAPSToolkit.git /opt/LAPSToolkit
 sudo git clone https://github.com/dirkjanm/PrivExchange.git /opt/PrivExchange
+sudo git clone https://github.com/mdsecactivebreach/Chameleon.git /opt/chameleon
 
 # Install KWprocessor used for creating keyboard walk passwords
 cd /opt/kwprocessor/
