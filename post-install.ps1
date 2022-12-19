@@ -70,6 +70,7 @@ git clone https://github.com/XenocodeRCE/neo-ConfuserEx.git c:\tools\neoconfuser
 git clone https://github.com/yck1509/ConfuserEx.git c:\tools\confuserex
 git clone https://github.com/danielmiessler/SecLists.git c:\tools\seclists
 git clone https://github.com/rasta-mouse/ThreatCheck.git c:\tools\threatcheck
+git clone https://github.com/JohnWoodman/remoteInjector.git c:\tools\remoteinjector
 
 
 
