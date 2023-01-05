@@ -122,6 +122,13 @@ sudo pip install exrex
 apt install golang-go -y
 go mod vendor
 
+# Request Section for new apps
+sudo dpkg -i mysql-apt-config_0.5.3-1_all.deb
+sudo apt-get update
+sudo apt-get install mysql-workbench-community
+sudo curl -sSL https://raw.githubusercontent.com/nettitude/PoshC2/master/Install.sh | sudo bash
+
+
 # This section generates a large list of realworld passwords for brute force and password spraying.
 
 echo "ENTER FULL COMPANY NAME FOR GENERATING PASSWORD SPRAYS:>"
