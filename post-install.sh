@@ -1,3 +1,7 @@
+echo "ENTER FULL COMPANY NAME FOR GENERATING PASSWORD SPRAYS:>"
+read companyname
+echo "ENTER SHORT COMPANY NAME FOR GENERATING PASSWORD SPRAYS:>"
+read shortcompanyname
 # Update Kali before installing any tools
 sudo apt-get update -y && sudo apt-get upgrade -y
 sudo apt full-upgrade -y
@@ -156,10 +160,6 @@ sudo git clone https://github.com/sc0tfree/updog.git /opt/updog
 
 # This section generates a large list of realworld passwords for brute force and password spraying.
 
-echo "ENTER FULL COMPANY NAME FOR GENERATING PASSWORD SPRAYS:>"
-read companyname
-echo "ENTER SHORT COMPANY NAME FOR GENERATING PASSWORD SPRAYS:>"
-read shortcompanyname
 echo $companyname"2022" > /opt/custom-passwords.txt
 echo $companyname"2021" >> /opt/custom-passwords.txt
 echo $companyname"2020" >> /opt/custom-passwords.txt
