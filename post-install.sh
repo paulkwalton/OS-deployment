@@ -22,6 +22,7 @@ sudo mkdir -p /opt/privesc/windows
 sudo wget -O /opt/privesc/windows/linpeas.bat https://github.com/carlospolop/PEASS-ng/releases/download/20220814/winPEAS.bat
 sudo mkdir -p /opt/buildreview
 sudo mkdir -p /opt/password
+sudo mkdir -p /opt/network
 # Start cloning repo's into /opt
 sudo git clone https://github.com/BC-SECURITY/Empire-Bypasses.git /opt/Empire-Bypasses.git
 sudo git clone --recursive https://github.com/BC-SECURITY/Empire-Sponsors.git /opt/Empire-Sponsors.git
@@ -53,9 +54,8 @@ sudo git clone https://github.com/gentilkiwi/mimikatz.git /opt/passwords/mimikat
 sudo git clone https://github.com/GhostPack/KeeThief.git /opt/password/keethief
 sudo git clone https://github.com/gentilkiwi/kekeo.git /opt/password/kekeo
 sudo git clone https://github.com/leoloobeek/LAPSToolkit.git /opt/password/lapstoolkit
-
-
-
+sudo wget -O /opt/network/putty.exe https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe
+sudo wget -O /opt/network/winscp.exe https://winscp.net/download/files/2023010513098bec75153682d04acc7dafc6c99d5ae2/WinSCP-5.21.6-Portable.zip
 
 # Install KWprocessor used for creating keyboard walk passwords
 cd /opt/kwprocessor/
