@@ -20,6 +20,8 @@ sudo mkdir -p /opt/privesc/linux
 sudo wget -O /opt/privesc/linux/linpeas.sh https://github.com/carlospolop/PEASS-ng/releases/download/20220814/linpeas.sh
 sudo mkdir -p /opt/privesc/windows
 sudo wget -O /opt/privesc/windows/linpeas.bat https://github.com/carlospolop/PEASS-ng/releases/download/20220814/winPEAS.bat
+sudo mkdir -p /opt/buildreview
+sudo mkdir -p /opt/password
 # Start cloning repo's into /opt
 sudo git clone https://github.com/BC-SECURITY/Empire-Bypasses.git /opt/Empire-Bypasses.git
 sudo git clone --recursive https://github.com/BC-SECURITY/Empire-Sponsors.git /opt/Empire-Sponsors.git
@@ -44,6 +46,12 @@ sudo git clone https://github.com/Arvanaghi/SessionGopher.git /opt/privesc/windo
 sudo git clone https://github.com/411Hall/JAWS.git /opt/privesc/windows/jaws
 sudo git clone https://github.com/rasta-mouse/Sherlock.git /opt/privesc/windows/sherlock
 sudo git clone https://github.com/AlessandroZ/BeRoot.git /opt/privesc/windows/beroot
+sudo git clone https://github.com/antonioCoco/RemotePotato0.git /opt/privesc/windows/remotepotato
+sudo git clone https://github.com/OneLogicalMyth/BuildReview-Windows.git /opt/buildreview/buildreview-windows
+sudo git clone https://github.com/OneLogicalMyth/PAudit.git /opt/buildreview/paudit
+sudo git clone https://github.com/gentilkiwi/mimikatz.git /opt/passwords/mimikatz
+
+
 
 
 # Install KWprocessor used for creating keyboard walk passwords
