@@ -50,6 +50,9 @@ sudo git clone https://github.com/antonioCoco/RemotePotato0.git /opt/privesc/win
 sudo git clone https://github.com/OneLogicalMyth/BuildReview-Windows.git /opt/buildreview/buildreview-windows
 sudo git clone https://github.com/OneLogicalMyth/PAudit.git /opt/buildreview/paudit
 sudo git clone https://github.com/gentilkiwi/mimikatz.git /opt/passwords/mimikatz
+sudo git clone https://github.com/GhostPack/KeeThief.git /opt/password/keethief
+sudo git clone https://github.com/gentilkiwi/kekeo.git /opt/password/kekeo
+sudo git clone https://github.com/leoloobeek/LAPSToolkit.git /opt/password/lapstoolkit
 
 
 
