@@ -40,6 +40,11 @@ sudo git clone https://github.com/hashcat/kwprocessor.git /opt/kwprocessor
 sudo git clone https://github.com/leoloobeek/LAPSToolkit.git /opt/LAPSToolkit
 sudo git clone https://github.com/dirkjanm/PrivExchange.git /opt/PrivExchange
 sudo git clone https://github.com/mdsecactivebreach/Chameleon.git /opt/chameleon
+sudo git clone https://github.com/Arvanaghi/SessionGopher.git /opt/privesc/windows/sessiongopher
+sudo git clone https://github.com/411Hall/JAWS.git /opt/privesc/windows/jaws
+sudo git clone https://github.com/rasta-mouse/Sherlock.git /opt/privesc/windows/sherlock
+sudo git clone https://github.com/AlessandroZ/BeRoot.git /opt/privesc/windows/beroot
+
 
 # Install KWprocessor used for creating keyboard walk passwords
 cd /opt/kwprocessor/
