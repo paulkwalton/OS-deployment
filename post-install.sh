@@ -28,8 +28,6 @@ sudo mkdir -p /opt/buildreview
 sudo mkdir -p /opt/password
 sudo mkdir -p /opt/network
 # Start cloning repo's into /opt
-sudo git clone https://github.com/BC-SECURITY/Empire-Bypasses.git /opt/Empire-Bypasses.git
-sudo git clone --recursive https://github.com/BC-SECURITY/Empire-Sponsors.git /opt/Empire-Sponsors.git
 sudo git clone https://github.com/Ridter/cve-2020-0688.git /opt/exploits/cve-2020-0688
 sudo git clone https://github.com/paulkwalton/scripts.git /opt/scripts/
 sudo git clone https://github.com/rebootuser/LinEnum.git /opt/privesc/linux/linenum
