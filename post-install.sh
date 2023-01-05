@@ -33,7 +33,7 @@ sudo git clone https://github.com/paulkwalton/scripts.git /opt/scripts/
 sudo git clone https://github.com/rebootuser/LinEnum.git /opt/privesc/linux/linenum
 sudo git clone https://github.com/bitsadmin/wesng.git /opt/privesc/windows/exploit-suggester
 sudo git clone https://github.com/nccgroup/ScoutSuite.git /opt/auditing/cloud/scoutsuite
-sudo git clone https://github.com/Mebus/cupp.git /opt/passwords/cupp
+sudo git clone https://github.com/Mebus/cupp.git /opt/password/cupp
 sudo git clone https://github.com/r3motecontrol/Ghostpack-CompiledBinaries.git /opt/privesc/windows/ghostpack
 sudo git clone https://gchq.github.io/CyberChef/ /opt/gchq-cyberchef
 sudo git clone https://github.com/ropnop/kerbrute /opt/adtools/kerbrute
@@ -52,7 +52,7 @@ sudo git clone https://github.com/AlessandroZ/BeRoot.git /opt/privesc/windows/be
 sudo git clone https://github.com/antonioCoco/RemotePotato0.git /opt/privesc/windows/remotepotato
 sudo git clone https://github.com/OneLogicalMyth/BuildReview-Windows.git /opt/buildreview/buildreview-windows
 sudo git clone https://github.com/OneLogicalMyth/PAudit.git /opt/buildreview/paudit
-sudo git clone https://github.com/gentilkiwi/mimikatz.git /opt/passwords/mimikatz
+sudo git clone https://github.com/gentilkiwi/mimikatz.git /opt/password/mimikatz
 sudo git clone https://github.com/GhostPack/KeeThief.git /opt/password/keethief
 sudo git clone https://github.com/gentilkiwi/kekeo.git /opt/password/kekeo
 sudo git clone https://github.com/leoloobeek/LAPSToolkit.git /opt/password/lapstoolkit
