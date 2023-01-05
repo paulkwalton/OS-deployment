@@ -56,6 +56,9 @@ sudo git clone https://github.com/gentilkiwi/kekeo.git /opt/password/kekeo
 sudo git clone https://github.com/leoloobeek/LAPSToolkit.git /opt/password/lapstoolkit
 sudo wget -O /opt/network/putty.exe https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe
 sudo wget -O /opt/network/winscp.exe https://winscp.net/download/files/2023010513098bec75153682d04acc7dafc6c99d5ae2/WinSCP-5.21.6-Portable.zip
+sudo wget -O /opt/network/kerbrute-linux-64 https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_amd64
+sudo git clone https://github.com/p0dalirius/Coercer.git /opt/network/coercer
+
 
 # Install KWprocessor used for creating keyboard walk passwords
 cd /opt/kwprocessor/
