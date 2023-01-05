@@ -42,7 +42,6 @@ sudo git clone https://github.com/Flangvik/SharpCollection.git /opt/sharpcollect
 sudo git clone https://github.com/phra/PEzor.git /opt/PEzor
 sudo git clone https://github.com/FortyNorthSecurity/RandomScripts.git /opt/shellcode-formatter
 sudo git clone https://github.com/hashcat/kwprocessor.git /opt/kwprocessor
-sudo git clone https://github.com/leoloobeek/LAPSToolkit.git /opt/LAPSToolkit
 sudo git clone https://github.com/dirkjanm/PrivExchange.git /opt/PrivExchange
 sudo git clone https://github.com/mdsecactivebreach/Chameleon.git /opt/chameleon
 sudo git clone https://github.com/Arvanaghi/SessionGopher.git /opt/privesc/windows/sessiongopher
