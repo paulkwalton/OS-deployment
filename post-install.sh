@@ -124,9 +124,15 @@ go mod vendor
 
 # Request Section for new apps
 sudo dpkg -i mysql-apt-config_0.5.3-1_all.deb
-sudo apt-get update
-sudo apt-get install mysql-workbench-community
+sudo apt-get update -y
+sudo apt-get install mysql-workbench-community -y
 sudo curl -sSL https://raw.githubusercontent.com/nettitude/PoshC2/master/Install.sh | sudo bash
+sudo git clone https://github.com/CISOfy/lynis.git /opt/lynis
+sudo apt install eyewitness -y
+sudo apt install hping3 -y
+sudo git clone https://github.com/secdev/scapy.git /opt/scapy 
+sudo apt install wafw00f -y
+sudo git clone https://github.com/sc0tfree/updog.git /opt/updog
 
 
 # This section generates a large list of realworld passwords for brute force and password spraying.
