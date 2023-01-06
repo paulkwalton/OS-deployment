@@ -300,11 +300,11 @@ sudo mkdir /etc/ssh/old_keys
 sudo mv /etc/ssh/ssh_host_* /etc/ssh/old_keys
 sudo dpkg-reconfigure openssh-server
 sudo macchanger -A eth0
-echo "[i] Installing xfce4 & xrdp (this will take a while as well)"
-apt-get install -y kali-desktop-xfce xorg xrdp
-echo "[i] Configuring xrdp to listen to port 3390 (but not starting the service)"
-sed -i 's/port=3389/port=3390/g' /etc/xrdp/xrdp.ini
-sudo systemctl enable xrdp --now
+#echo "[i] Installing xfce4 & xrdp (this will take a while as well)"
+#apt-get install -y kali-desktop-xfce xorg xrdp
+#echo "[i] Configuring xrdp to listen to port 3390 (but not starting the service)"
+#sed -i 's/port=3389/port=3390/g' /etc/xrdp/xrdp.ini
+#sudo systemctl enable xrdp --now
 # Write a file which confirms the build script has reached the end, and not fell over.
 touch /opt/script-completed-pls-del-me.txt
 # Completed
