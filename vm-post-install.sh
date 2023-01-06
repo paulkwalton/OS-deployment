@@ -27,6 +27,7 @@ sudo wget -O /opt/privesc/windows/linpeas.bat https://github.com/carlospolop/PEA
 sudo mkdir -p /opt/buildreview
 sudo mkdir -p /opt/password
 sudo mkdir -p /opt/network
+sudo mkdir -p /opt/persistence/
 # Start cloning repo's into /opt
 sudo git clone https://github.com/Ridter/cve-2020-0688.git /opt/exploits/cve-2020-0688
 sudo git clone https://github.com/paulkwalton/scripts.git /opt/scripts/
@@ -59,6 +60,7 @@ sudo wget -O /opt/network/putty.exe https://the.earth.li/~sgtatham/putty/latest/
 sudo wget -O /opt/network/winscp.exe https://winscp.net/download/files/2023010513098bec75153682d04acc7dafc6c99d5ae2/WinSCP-5.21.6-Portable.zip
 sudo wget -O /opt/network/kerbrute-linux-64 https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_amd64
 sudo git clone https://github.com/p0dalirius/Coercer.git /opt/network/coercer
+sudo git clone https://github.com/Sw4mpf0x/PowerLurk.git /opt/persistence/windows/powerlurk
 
 
 # Install KWprocessor used for creating keyboard walk passwords
